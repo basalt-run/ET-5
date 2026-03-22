@@ -1,0 +1,3592 @@
+{
+  "$schema": "https://basalt.run/schemas/components.json",
+  "version": "1.0.0",
+  "components": [
+    {
+      "name": "Accordion/Default",
+      "description": "Accordion/Default component",
+      "sourcePath": "figma:5:518",
+      "tokens": [
+        "color.border.default",
+        "color.text.primary",
+        "color.text.tertiary",
+        "color.text.secondary"
+      ],
+      "variants": [
+        {
+          "name": "Accordion/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Accordion/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "background-color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Alert",
+      "description": "Alert component",
+      "sourcePath": "figma:5:405",
+      "tokens": [
+        "color.status.info.bg",
+        "color.status.info.border",
+        "color.status.info.icon",
+        "color.status.info.text",
+        "radius.lg",
+        "color.status.positive.bg",
+        "color.status.positive.border",
+        "color.status.positive.icon",
+        "color.status.positive.text",
+        "color.status.warning.bg",
+        "color.status.warning.border",
+        "color.status.warning.icon",
+        "color.status.warning.text",
+        "color.status.danger.bg",
+        "color.status.danger.border",
+        "color.status.danger.icon",
+        "color.status.danger.text"
+      ],
+      "variants": [
+        {
+          "name": "Info"
+        },
+        {
+          "name": "Success"
+        },
+        {
+          "name": "Warning"
+        },
+        {
+          "name": "Danger"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Info": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.lg",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.status.info.icon",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.status.info.border",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.status.info.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Danger": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.lg",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.status.danger.icon",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.status.danger.border",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.status.danger.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Success": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.lg",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.status.positive.icon",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.status.positive.border",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.status.positive.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Warning": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.lg",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.status.warning.icon",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.status.warning.border",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.status.warning.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Avatar",
+      "description": "Avatar component",
+      "sourcePath": "figma:5:325",
+      "tokens": [
+        "color.action.primary.bg",
+        "color.action.primary.text"
+      ],
+      "variants": [
+        {
+          "name": "XS"
+        },
+        {
+          "name": "SM"
+        },
+        {
+          "name": "MD"
+        },
+        {
+          "name": "LG"
+        },
+        {
+          "name": "XL"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "XS"
+        },
+        {
+          "name": "SM"
+        },
+        {
+          "name": "MD"
+        },
+        {
+          "name": "LG"
+        },
+        {
+          "name": "XL"
+        }
+      ],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "LG": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "MD": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "SM": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "XL": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "XS": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Badge",
+      "description": "Badge component",
+      "sourcePath": "figma:5:310",
+      "tokens": [
+        "color.background.surface",
+        "color.border.default",
+        "color.text.secondary",
+        "radius.full",
+        "color.status.positive.bg",
+        "color.status.positive.border",
+        "color.status.positive.text",
+        "color.status.warning.bg",
+        "color.status.warning.border",
+        "color.status.warning.text",
+        "color.status.danger.bg",
+        "color.status.danger.border",
+        "color.status.danger.text",
+        "color.status.info.bg",
+        "color.status.info.border",
+        "color.status.info.text",
+        "color.action.primary.bg",
+        "color.action.primary.text"
+      ],
+      "variants": [
+        {
+          "name": "Default"
+        },
+        {
+          "name": "Success"
+        },
+        {
+          "name": "Warning"
+        },
+        {
+          "name": "Danger"
+        },
+        {
+          "name": "Info"
+        },
+        {
+          "name": "Brand"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Info": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.full",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.status.info.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.status.info.border",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.status.info.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Brand": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.full",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Danger": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.full",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.status.danger.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.status.danger.border",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.status.danger.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.full",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.surface",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Success": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.full",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.status.positive.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.status.positive.border",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.status.positive.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Warning": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.full",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.status.warning.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.status.warning.border",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.status.warning.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Breadcrumb/Default",
+      "description": "Breadcrumb/Default component",
+      "sourcePath": "figma:5:456",
+      "tokens": [
+        "color.text.secondary",
+        "color.text.tertiary",
+        "color.text.primary"
+      ],
+      "variants": [
+        {
+          "name": "Breadcrumb/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Breadcrumb/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.text.primary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Button",
+      "description": "Button component",
+      "sourcePath": "figma:5:233",
+      "tokens": [
+        "color.action.primary.bg",
+        "color.action.primary.text",
+        "spacing.layout.xs",
+        "spacing.inline.sm",
+        "spacing.component.sm",
+        "radius.md",
+        "color.action.primary.bgHover",
+        "color.action.primary.bgDisabled",
+        "color.action.primary.textDisabled",
+        "color.action.neutral.bg",
+        "color.action.neutral.border",
+        "color.action.neutral.text",
+        "color.action.neutral.bgHover",
+        "color.action.neutral.bgDisabled",
+        "color.action.ghost.bg",
+        "color.action.ghost.text",
+        "color.action.ghost.bgHover",
+        "color.text.tertiary",
+        "color.danger.bg",
+        "color.danger.text",
+        "color.danger.bgHover",
+        "spacing.inline.md",
+        "spacing.component.md",
+        "spacing.inline.lg",
+        "spacing.component.lg"
+      ],
+      "variants": [
+        {
+          "name": "Primary"
+        },
+        {
+          "name": "Primary"
+        },
+        {
+          "name": "Primary"
+        },
+        {
+          "name": "Neutral"
+        },
+        {
+          "name": "Neutral"
+        },
+        {
+          "name": "Neutral"
+        },
+        {
+          "name": "Ghost"
+        },
+        {
+          "name": "Ghost"
+        },
+        {
+          "name": "Ghost"
+        },
+        {
+          "name": "Danger"
+        },
+        {
+          "name": "Danger"
+        },
+        {
+          "name": "Danger"
+        },
+        {
+          "name": "Primary"
+        },
+        {
+          "name": "Primary"
+        },
+        {
+          "name": "Primary"
+        },
+        {
+          "name": "Neutral"
+        },
+        {
+          "name": "Neutral"
+        },
+        {
+          "name": "Neutral"
+        },
+        {
+          "name": "Ghost"
+        },
+        {
+          "name": "Ghost"
+        },
+        {
+          "name": "Ghost"
+        },
+        {
+          "name": "Danger"
+        },
+        {
+          "name": "Danger"
+        },
+        {
+          "name": "Danger"
+        },
+        {
+          "name": "Primary"
+        },
+        {
+          "name": "Primary"
+        },
+        {
+          "name": "Primary"
+        },
+        {
+          "name": "Neutral"
+        },
+        {
+          "name": "Neutral"
+        },
+        {
+          "name": "Neutral"
+        },
+        {
+          "name": "Ghost"
+        },
+        {
+          "name": "Ghost"
+        },
+        {
+          "name": "Ghost"
+        },
+        {
+          "name": "Danger"
+        },
+        {
+          "name": "Danger"
+        },
+        {
+          "name": "Danger"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "SM"
+        },
+        {
+          "name": "MD"
+        },
+        {
+          "name": "LG"
+        }
+      ],
+      "ariaRole": null,
+      "wcagCriteria": [
+        "1.4.3 Contrast (Minimum)",
+        "2.1.1 Keyboard",
+        "4.1.2 Name, Role, Value",
+        "2.5.8 Target Size (Minimum)"
+      ],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "icons": {},
+        "variants": {
+          "Ghost": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "id": "auto-1-1774195239530",
+                    "tokenPath": "spacing.layout.xs",
+                    "cssProperty": "gap",
+                    "tailwindPrefix": "gap"
+                  },
+                  {
+                    "id": "auto-2-1774195239530",
+                    "tokenPath": "spacing.inline.lg",
+                    "cssProperty": "padding-x",
+                    "tailwindPrefix": "px"
+                  },
+                  {
+                    "id": "auto-3-1774195239530",
+                    "tokenPath": "spacing.component.lg",
+                    "cssProperty": "padding-y",
+                    "tailwindPrefix": "py"
+                  },
+                  {
+                    "id": "auto-4-1774195239530",
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius",
+                    "tailwindPrefix": "rounded"
+                  },
+                  {
+                    "id": "auto-5-1774195239530",
+                    "tokenPath": "color.action.ghost.bgHover",
+                    "cssProperty": "background-color",
+                    "tailwindPrefix": "bg"
+                  },
+                  {
+                    "id": "auto-6-1774195239530",
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color",
+                    "tailwindPrefix": "text"
+                  }
+                ]
+              }
+            }
+          },
+          "Danger": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "id": "auto-7-1774195239530",
+                    "tokenPath": "spacing.layout.xs",
+                    "cssProperty": "gap",
+                    "tailwindPrefix": "gap"
+                  },
+                  {
+                    "id": "auto-8-1774195239530",
+                    "tokenPath": "spacing.inline.lg",
+                    "cssProperty": "padding-x",
+                    "tailwindPrefix": "px"
+                  },
+                  {
+                    "id": "auto-9-1774195239530",
+                    "tokenPath": "spacing.component.lg",
+                    "cssProperty": "padding-y",
+                    "tailwindPrefix": "py"
+                  },
+                  {
+                    "id": "auto-10-1774195239530",
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius",
+                    "tailwindPrefix": "rounded"
+                  },
+                  {
+                    "id": "auto-11-1774195239530",
+                    "tokenPath": "color.danger.bgHover",
+                    "cssProperty": "background-color",
+                    "tailwindPrefix": "bg"
+                  },
+                  {
+                    "id": "auto-12-1774195239530",
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color",
+                    "tailwindPrefix": "text"
+                  }
+                ]
+              }
+            }
+          },
+          "Neutral": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "id": "auto-13-1774195239530",
+                    "tokenPath": "spacing.layout.xs",
+                    "cssProperty": "gap",
+                    "tailwindPrefix": "gap"
+                  },
+                  {
+                    "id": "auto-14-1774195239530",
+                    "tokenPath": "spacing.inline.lg",
+                    "cssProperty": "padding-x",
+                    "tailwindPrefix": "px"
+                  },
+                  {
+                    "id": "auto-15-1774195239530",
+                    "tokenPath": "spacing.component.lg",
+                    "cssProperty": "padding-y",
+                    "tailwindPrefix": "py"
+                  },
+                  {
+                    "id": "auto-16-1774195239530",
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius",
+                    "tailwindPrefix": "rounded"
+                  },
+                  {
+                    "id": "auto-17-1774195239530",
+                    "tokenPath": "color.action.neutral.bgDisabled",
+                    "cssProperty": "background-color",
+                    "tailwindPrefix": "bg"
+                  },
+                  {
+                    "id": "auto-18-1774195239530",
+                    "tokenPath": "color.action.neutral.border",
+                    "cssProperty": "border-color",
+                    "tailwindPrefix": "border"
+                  },
+                  {
+                    "id": "auto-19-1774195239530",
+                    "tokenPath": "color.action.neutral.text",
+                    "cssProperty": "color",
+                    "tailwindPrefix": "text"
+                  }
+                ]
+              }
+            }
+          },
+          "Primary": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "id": "auto-20-1774195239530",
+                    "tokenPath": "spacing.layout.xs",
+                    "cssProperty": "gap",
+                    "tailwindPrefix": "gap"
+                  },
+                  {
+                    "id": "auto-21-1774195239530",
+                    "tokenPath": "spacing.inline.lg",
+                    "cssProperty": "padding-x",
+                    "tailwindPrefix": "px"
+                  },
+                  {
+                    "id": "auto-22-1774195239530",
+                    "tokenPath": "spacing.component.lg",
+                    "cssProperty": "padding-y",
+                    "tailwindPrefix": "py"
+                  },
+                  {
+                    "id": "auto-23-1774195239530",
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius",
+                    "tailwindPrefix": "rounded"
+                  },
+                  {
+                    "id": "auto-24-1774195239530",
+                    "tokenPath": "color.action.primary.bgDisabled",
+                    "cssProperty": "background-color",
+                    "tailwindPrefix": "bg"
+                  },
+                  {
+                    "id": "auto-25-1774195239530",
+                    "tokenPath": "color.action.primary.textDisabled",
+                    "cssProperty": "color",
+                    "tailwindPrefix": "text"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [
+        {
+          "name": "variant",
+          "type": "string",
+          "values": [
+            "Primary",
+            "Neutral",
+            "Ghost",
+            "Danger"
+          ],
+          "default": "Primary",
+          "required": false,
+          "description": "Visual style variant that conveys action hierarchy and intent"
+        },
+        {
+          "name": "size",
+          "type": "string",
+          "values": [
+            "sm",
+            "md",
+            "lg"
+          ],
+          "default": "md",
+          "required": false,
+          "description": "Controls the button dimensions and internal spacing"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "default": "false",
+          "required": false,
+          "description": "Disables button interaction and applies disabled styling"
+        },
+        {
+          "name": "onClick",
+          "type": "function",
+          "required": false,
+          "description": "Callback fired when the button is clicked"
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": true,
+          "description": "Button label text or content"
+        }
+      ],
+      "usage": "Use buttons to trigger actions, submit forms, or navigate to new pages. Primary buttons should represent the main action on a page, with only one primary per section. Neutral and Ghost variants are for secondary actions, while Danger is reserved for destructive operations like delete or remove.",
+      "never": "Never use a button for navigation alone—use a link instead. Never stack multiple Primary buttons in the same context as this creates competing hierarchy. Never disable a button without providing clear feedback about why it's disabled or how to enable it.",
+      "compose": "Buttons can be grouped in button groups or toolbars for related actions. Wrap buttons in form elements when submitting data, or use within modal footers for confirmation actions.",
+      "aria": {
+        "role": "button",
+        "keyboard": "Activates with Space or Enter keys. Tab to focus, Shift+Tab to reverse focus.",
+        "screenReader": "Announces button label, role, and disabled state when present"
+      }
+    },
+    {
+      "name": "Card",
+      "description": "Card component",
+      "sourcePath": "figma:5:500",
+      "tokens": [
+        "color.background.surface",
+        "color.border.default",
+        "color.text.primary",
+        "color.text.secondary",
+        "radius.lg",
+        "color.background.elevated",
+        "color.border.strong"
+      ],
+      "variants": [
+        {
+          "name": "Default"
+        },
+        {
+          "name": "Hover"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Hover": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.lg",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.elevated",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.strong",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.lg",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.surface",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "CodeSnippet/Default",
+      "description": "CodeSnippet/Default component",
+      "sourcePath": "figma:5:733",
+      "tokens": [
+        "code.background",
+        "code.border",
+        "color.text.tertiary",
+        "code.keyword",
+        "code.text",
+        "code.string",
+        "radius.lg"
+      ],
+      "variants": [
+        {
+          "name": "CodeSnippet/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "CodeSnippet/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.lg",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "code.border",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "code.string",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "ColorPicker/Default",
+      "description": "ColorPicker/Default component",
+      "sourcePath": "figma:5:743",
+      "tokens": [
+        "color.background.elevated",
+        "color.border.default",
+        "color.background.surface",
+        "color.text.primary",
+        "color.action.primary.bg",
+        "radius.lg",
+        "radius.sm"
+      ],
+      "variants": [
+        {
+          "name": "ColorPicker/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "ColorPicker/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.sm",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Combobox",
+      "description": "Combobox component",
+      "sourcePath": "figma:5:703",
+      "tokens": [
+        "color.background.surface",
+        "color.border.default",
+        "color.text.tertiary",
+        "radius.md",
+        "color.border.focus",
+        "color.text.primary",
+        "color.text.secondary"
+      ],
+      "variants": [
+        {
+          "name": "Closed"
+        },
+        {
+          "name": "Open"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Open": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.focus",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Closed": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "CommandPalette/Default",
+      "description": "CommandPalette/Default component",
+      "sourcePath": "figma:5:568",
+      "tokens": [
+        "color.background.elevated",
+        "color.border.default",
+        "color.text.tertiary",
+        "color.action.primary.bg",
+        "color.text.primary"
+      ],
+      "variants": [
+        {
+          "name": "CommandPalette/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "CommandPalette/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.primary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "ComponentPreview/Default",
+      "description": "ComponentPreview/Default component",
+      "sourcePath": "figma:5:803",
+      "tokens": [
+        "color.border.default",
+        "color.background.sunken",
+        "color.action.primary.bg",
+        "color.action.primary.text",
+        "color.background.elevated",
+        "color.text.secondary",
+        "color.text.tertiary",
+        "color.text.code",
+        "radius.lg"
+      ],
+      "variants": [
+        {
+          "name": "ComponentPreview/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "ComponentPreview/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.lg",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.background.elevated",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.text.code",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Divider",
+      "description": "Divider component",
+      "sourcePath": "figma:5:345",
+      "tokens": [
+        "color.border.default",
+        "color.border.subtle",
+        "color.border.strong"
+      ],
+      "variants": [
+        {
+          "name": "Default"
+        },
+        {
+          "name": "Subtle"
+        },
+        {
+          "name": "Strong"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Strong": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.border.strong",
+                    "cssProperty": "background-color"
+                  }
+                ]
+              }
+            }
+          },
+          "Subtle": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.border.subtle",
+                    "cssProperty": "background-color"
+                  }
+                ]
+              }
+            }
+          },
+          "Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "background-color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "DropdownMenu/Default",
+      "description": "DropdownMenu/Default component",
+      "sourcePath": "figma:5:393",
+      "tokens": [
+        "color.background.elevated",
+        "color.border.default",
+        "color.text.primary",
+        "color.action.ghost.bgHover",
+        "color.danger.textSubtle",
+        "radius.lg"
+      ],
+      "variants": [
+        {
+          "name": "DropdownMenu/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "DropdownMenu/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.lg",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.action.ghost.bgHover",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.danger.textSubtle",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "EmptyState",
+      "description": "EmptyState component",
+      "sourcePath": "figma:5:753",
+      "tokens": [
+        "color.background.surface",
+        "color.border.default",
+        "color.text.tertiary",
+        "color.text.primary",
+        "color.text.secondary",
+        "radius.lg"
+      ],
+      "variants": [
+        {
+          "name": "No-tokens"
+        },
+        {
+          "name": "No-components"
+        },
+        {
+          "name": "No-results"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "No-tokens": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.lg",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.surface",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "No-results": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.lg",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.surface",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "No-components": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.lg",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.surface",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "FileUpload",
+      "description": "FileUpload component",
+      "sourcePath": "figma:5:768",
+      "tokens": [
+        "color.background.surface",
+        "color.border.default",
+        "color.text.tertiary",
+        "color.text.secondary",
+        "radius.lg",
+        "color.action.primary.bg",
+        "color.border.accent",
+        "color.status.positive.bg",
+        "color.status.positive.border",
+        "color.status.positive.icon",
+        "color.status.positive.text"
+      ],
+      "variants": [
+        {
+          "name": "Default"
+        },
+        {
+          "name": "Dragging"
+        },
+        {
+          "name": "Uploaded"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.lg",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Dragging": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.lg",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.accent",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Uploaded": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.lg",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.status.positive.icon",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.status.positive.border",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.status.positive.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Form/Default",
+      "description": "Form/Default component",
+      "sourcePath": "figma:5:719",
+      "tokens": [
+        "color.background.elevated",
+        "color.border.default",
+        "color.text.primary",
+        "color.background.surface",
+        "color.text.tertiary",
+        "color.action.primary.bg",
+        "color.action.primary.text",
+        "radius.lg",
+        "radius.md"
+      ],
+      "variants": [
+        {
+          "name": "Form/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Form/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "GitHubSync",
+      "description": "GitHubSync component",
+      "sourcePath": "figma:5:662",
+      "tokens": [
+        "color.background.surface",
+        "color.border.default",
+        "color.text.secondary",
+        "color.text.code",
+        "color.status.positive.text",
+        "radius.md",
+        "color.status.danger.text",
+        "color.text.tertiary"
+      ],
+      "variants": [
+        {
+          "name": "Synced"
+        },
+        {
+          "name": "Syncing"
+        },
+        {
+          "name": "Error"
+        },
+        {
+          "name": "Not-connected"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Error": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.status.danger.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Synced": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.status.positive.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Syncing": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.code",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Not-connected": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Input",
+      "description": "Input component",
+      "sourcePath": "figma:5:369",
+      "tokens": [
+        "color.background.surface",
+        "color.border.default",
+        "color.text.tertiary",
+        "spacing.inline.md",
+        "spacing.component.md",
+        "radius.md",
+        "color.border.focus",
+        "color.danger.border",
+        "color.background.sunken",
+        "color.border.subtle"
+      ],
+      "variants": [
+        {
+          "name": "Default"
+        },
+        {
+          "name": "Focus"
+        },
+        {
+          "name": "Error"
+        },
+        {
+          "name": "Disabled"
+        },
+        {
+          "name": "Default-inner"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Error": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "spacing.inline.md",
+                    "cssProperty": "padding-x"
+                  },
+                  {
+                    "tokenPath": "spacing.component.md",
+                    "cssProperty": "padding-y"
+                  },
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.surface",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.danger.border",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Focus": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "spacing.inline.md",
+                    "cssProperty": "padding-x"
+                  },
+                  {
+                    "tokenPath": "spacing.component.md",
+                    "cssProperty": "padding-y"
+                  },
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.surface",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.focus",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "spacing.inline.md",
+                    "cssProperty": "padding-x"
+                  },
+                  {
+                    "tokenPath": "spacing.component.md",
+                    "cssProperty": "padding-y"
+                  },
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.surface",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Disabled": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "spacing.inline.md",
+                    "cssProperty": "padding-x"
+                  },
+                  {
+                    "tokenPath": "spacing.component.md",
+                    "cssProperty": "padding-y"
+                  },
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.sunken",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.subtle",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Default-inner": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.surface",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Link",
+      "description": "Link component",
+      "sourcePath": "figma:5:685",
+      "tokens": [
+        "color.text.link",
+        "color.text.linkHover",
+        "color.text.tertiary"
+      ],
+      "variants": [
+        {
+          "name": "Default"
+        },
+        {
+          "name": "Hover"
+        },
+        {
+          "name": "Visited"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Hover": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.text.linkHover",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.text.link",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Visited": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "MCPEndpointCard/Default",
+      "description": "MCPEndpointCard/Default component",
+      "sourcePath": "figma:5:635",
+      "tokens": [
+        "color.background.surface",
+        "color.border.default",
+        "color.action.primary.bg",
+        "color.text.primary",
+        "color.status.positive.bg",
+        "color.status.positive.border",
+        "color.status.positive.text",
+        "color.background.sunken",
+        "color.text.code",
+        "color.text.tertiary",
+        "radius.lg",
+        "radius.md"
+      ],
+      "variants": [
+        {
+          "name": "MCPEndpointCard/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "MCPEndpointCard/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.status.positive.border",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Modal/Default",
+      "description": "Modal/Default component",
+      "sourcePath": "figma:5:509",
+      "tokens": [
+        "color.background.elevated",
+        "color.border.default",
+        "color.text.primary",
+        "color.border.subtle",
+        "color.text.secondary"
+      ],
+      "variants": [
+        {
+          "name": "Modal/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Modal/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.border.subtle",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.subtle",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "NumberInput/Default",
+      "description": "NumberInput/Default component",
+      "sourcePath": "figma:5:693",
+      "tokens": [
+        "color.border.default",
+        "color.text.secondary",
+        "color.background.surface",
+        "color.text.primary",
+        "radius.md"
+      ],
+      "variants": [
+        {
+          "name": "NumberInput/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "NumberInput/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.primary",
+                    "cssProperty": "color"
+                  },
+                  {
+                    "tokenPath": "color.background.surface",
+                    "cssProperty": "background-color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Onboarding",
+      "description": "Onboarding component",
+      "sourcePath": "figma:5:821",
+      "tokens": [
+        "color.border.default",
+        "color.action.primary.bg",
+        "color.text.secondary",
+        "color.status.positive.text",
+        "color.text.primary",
+        "color.text.tertiary",
+        "color.background.surface"
+      ],
+      "variants": [
+        {
+          "name": "1"
+        },
+        {
+          "name": "2"
+        },
+        {
+          "name": "3"
+        },
+        {
+          "name": "4"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "1": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.status.positive.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "2": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "3": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.background.surface",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "4": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.background.surface",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Progress/Linear/Default",
+      "description": "Progress/Linear/Default component",
+      "sourcePath": "figma:5:443",
+      "tokens": [
+        "color.background.sunken",
+        "color.action.primary.bg"
+      ],
+      "variants": [
+        {
+          "name": "Progress/Linear/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Progress/Linear/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "ProjectCard/Default",
+      "description": "ProjectCard/Default component",
+      "sourcePath": "figma:5:647",
+      "tokens": [
+        "color.background.surface",
+        "color.border.default",
+        "color.text.primary",
+        "color.text.tertiary",
+        "color.background.sunken",
+        "color.text.secondary",
+        "color.text.code",
+        "color.action.primary.bg",
+        "color.action.primary.text",
+        "radius.lg"
+      ],
+      "variants": [
+        {
+          "name": "ProjectCard/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "ProjectCard/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.lg",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Search",
+      "description": "Search component",
+      "sourcePath": "figma:5:388",
+      "tokens": [
+        "color.background.surface",
+        "color.border.default",
+        "color.text.tertiary",
+        "radius.md"
+      ],
+      "variants": [
+        {
+          "name": "Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Sidebar/Expanded",
+      "description": "Sidebar/Expanded component",
+      "sourcePath": "figma:5:481",
+      "tokens": [
+        "color.background.surface",
+        "color.border.default",
+        "color.action.primary.bg",
+        "color.text.primary",
+        "color.action.primary.text",
+        "color.text.tertiary",
+        "color.text.secondary",
+        "radius.md"
+      ],
+      "variants": [
+        {
+          "name": "Sidebar/Expanded"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Sidebar/Expanded": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "color"
+                  },
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Skeleton",
+      "description": "Skeleton component",
+      "sourcePath": "figma:5:360",
+      "tokens": [
+        "skeleton.base"
+      ],
+      "variants": [
+        {
+          "name": "Text-SM"
+        },
+        {
+          "name": "Text-MD"
+        },
+        {
+          "name": "Text-LG"
+        },
+        {
+          "name": "Avatar-MD"
+        },
+        {
+          "name": "Card"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Card": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "skeleton.base",
+                    "cssProperty": "background-color"
+                  }
+                ]
+              }
+            }
+          },
+          "Text-LG": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "skeleton.base",
+                    "cssProperty": "background-color"
+                  }
+                ]
+              }
+            }
+          },
+          "Text-MD": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "skeleton.base",
+                    "cssProperty": "background-color"
+                  }
+                ]
+              }
+            }
+          },
+          "Text-SM": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "skeleton.base",
+                    "cssProperty": "background-color"
+                  }
+                ]
+              }
+            }
+          },
+          "Avatar-MD": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "skeleton.base",
+                    "cssProperty": "background-color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Table/Default",
+      "description": "Table/Default component",
+      "sourcePath": "figma:5:529",
+      "tokens": [
+        "color.background.elevated",
+        "color.border.default",
+        "color.background.surface",
+        "color.text.secondary",
+        "color.border.subtle",
+        "color.text.code",
+        "color.text.primary"
+      ],
+      "variants": [
+        {
+          "name": "Table/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Table/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.background.surface",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.subtle",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.primary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Tabs/Bar",
+      "description": "Tabs/Bar component",
+      "sourcePath": "figma:5:447",
+      "tokens": [
+        "color.border.default",
+        "color.action.primary.bg",
+        "color.text.secondary"
+      ],
+      "variants": [
+        {
+          "name": "Tabs/Bar"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Tabs/Bar": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Tag",
+      "description": "Tag component",
+      "sourcePath": "figma:5:338",
+      "tokens": [
+        "color.background.surface",
+        "color.border.default",
+        "color.text.secondary",
+        "radius.full",
+        "color.action.primary.bg",
+        "color.action.primary.text"
+      ],
+      "variants": [
+        {
+          "name": "Default"
+        },
+        {
+          "name": "Selected"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.full",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.surface",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.secondary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Selected": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.full",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.text",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Textarea",
+      "description": "Textarea component",
+      "sourcePath": "figma:5:384",
+      "tokens": [
+        "color.background.surface",
+        "color.border.default",
+        "color.text.tertiary",
+        "radius.md"
+      ],
+      "variants": [
+        {
+          "name": "Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.surface",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Toast",
+      "description": "Toast component",
+      "sourcePath": "figma:5:428",
+      "tokens": [
+        "color.background.inverse",
+        "color.text.onInverse",
+        "radius.md",
+        "color.status.positive.icon",
+        "color.status.danger.icon"
+      ],
+      "variants": [
+        {
+          "name": "Default"
+        },
+        {
+          "name": "Success"
+        },
+        {
+          "name": "Error"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Error": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.status.danger.icon",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.text.onInverse",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.inverse",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.text.onInverse",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          },
+          "Success": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.status.positive.icon",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.text.onInverse",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "TokenChip/color/action/primary/bg",
+      "description": "TokenChip/color/action/primary/bg component",
+      "sourcePath": "figma:5:595",
+      "tokens": [
+        "color.background.sunken",
+        "color.border.default",
+        "color.action.primary.bg",
+        "color.text.code",
+        "radius.sm"
+      ],
+      "variants": [
+        {
+          "name": "TokenChip/color/action/primary/bg"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "TokenChip/color/action/primary/bg": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.sm",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.code",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "TokenChip/color/text/primary",
+      "description": "TokenChip/color/text/primary component",
+      "sourcePath": "figma:5:588",
+      "tokens": [
+        "color.background.sunken",
+        "color.border.default",
+        "color.text.primary",
+        "color.text.code",
+        "radius.sm"
+      ],
+      "variants": [
+        {
+          "name": "TokenChip/color/text/primary"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "TokenChip/color/text/primary": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.sm",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.text.primary",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.code",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "TokenChip/radius/md",
+      "description": "TokenChip/radius/md component",
+      "sourcePath": "figma:5:593",
+      "tokens": [
+        "color.background.sunken",
+        "color.border.default",
+        "color.text.code",
+        "radius.sm"
+      ],
+      "variants": [
+        {
+          "name": "TokenChip/radius/md"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "TokenChip/radius/md": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.sm",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.sunken",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.code",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "TokenChip/spacing/layout/md",
+      "description": "TokenChip/spacing/layout/md component",
+      "sourcePath": "figma:5:591",
+      "tokens": [
+        "color.background.sunken",
+        "color.border.default",
+        "color.text.code",
+        "radius.sm"
+      ],
+      "variants": [
+        {
+          "name": "TokenChip/spacing/layout/md"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "TokenChip/spacing/layout/md": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.sm",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.sunken",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.code",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "TokenEditorRow",
+      "description": "TokenEditorRow component",
+      "sourcePath": "figma:5:618",
+      "tokens": [
+        "color.border.subtle",
+        "color.text.code",
+        "color.text.secondary",
+        "color.text.tertiary",
+        "color.background.elevated",
+        "color.border.focus",
+        "radius.md"
+      ],
+      "variants": [
+        {
+          "name": "Default"
+        },
+        {
+          "name": "Focused"
+        },
+        {
+          "name": "Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "color.border.subtle",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "background-color"
+                  }
+                ]
+              }
+            }
+          },
+          "Focused": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.focus",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "TokenGroup/Default",
+      "description": "TokenGroup/Default component",
+      "sourcePath": "figma:5:600",
+      "tokens": [
+        "color.background.surface",
+        "color.border.default",
+        "color.text.tertiary",
+        "color.background.sunken",
+        "color.text.primary",
+        "color.text.code",
+        "color.text.secondary",
+        "color.text.link",
+        "radius.md"
+      ],
+      "variants": [
+        {
+          "name": "TokenGroup/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "TokenGroup/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.text.link",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.border.default",
+                    "cssProperty": "border-color"
+                  },
+                  {
+                    "tokenPath": "color.text.link",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "Tooltip/Default",
+      "description": "Tooltip/Default component",
+      "sourcePath": "figma:5:438",
+      "tokens": [
+        "color.background.inverse",
+        "color.text.onInverse",
+        "radius.md"
+      ],
+      "variants": [
+        {
+          "name": "Tooltip/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "Tooltip/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.md",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.background.inverse",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.text.onInverse",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    },
+    {
+      "name": "TreeView/Default",
+      "description": "TreeView/Default component",
+      "sourcePath": "figma:5:779",
+      "tokens": [
+        "color.background.surface",
+        "color.text.tertiary",
+        "color.text.primary",
+        "color.action.primary.bg",
+        "radius.md",
+        "radius.sm"
+      ],
+      "variants": [
+        {
+          "name": "TreeView/Default"
+        }
+      ],
+      "sizes": [],
+      "ariaRole": null,
+      "wcagCriteria": [],
+      "minTouchTarget": null,
+      "buildConfig": {
+        "variants": {
+          "TreeView/Default": {
+            "states": {
+              "default": {
+                "staticClasses": "",
+                "tokenBindings": [
+                  {
+                    "tokenPath": "radius.sm",
+                    "cssProperty": "border-radius"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color"
+                  },
+                  {
+                    "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "color"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "props": [],
+      "usage": "",
+      "never": "",
+      "aria": {}
+    }
+  ]
+}
