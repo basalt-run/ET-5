@@ -1,0 +1,2889 @@
+{
+  "$schema": "https://basalt.run/schemas/manifest.json",
+  "version": "1.0.0",
+  "generatedAt": "2026-03-22T17:30:35.737Z",
+  "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+  "projectSlug": "basalt-run-et-5",
+  "projectName": "basalt-run/ET-5",
+  "storybookCompatible": true,
+  "components": {
+    "basalt-run-et-5-accordion--default": {
+      "id": "basalt-run-et-5-accordion--default",
+      "name": "Accordion/Default",
+      "path": "figma:5:518",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-accordion--default--accordion/default",
+          "name": "Accordion/Default",
+          "snippet": "const Accordion/Default = () => <Accordion/Default variant=\"accordion/default\" />;"
+        }
+      ],
+      "import": "import { Accordion/Default } from \"@your-org/design-system\";",
+      "description": "Accordion/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:518",
+        "updatedAt": "2026-03-22T04:53:03.452971+00:00"
+      }
+    },
+    "basalt-run-et-5-alert": {
+      "id": "basalt-run-et-5-alert",
+      "name": "Alert",
+      "path": "figma:5:405",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-alert--info",
+          "name": "Info",
+          "snippet": "const Info = () => <Alert variant=\"info\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-alert--success",
+          "name": "Success",
+          "snippet": "const Success = () => <Alert variant=\"success\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-alert--warning",
+          "name": "Warning",
+          "snippet": "const Warning = () => <Alert variant=\"warning\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-alert--danger",
+          "name": "Danger",
+          "snippet": "const Danger = () => <Alert variant=\"danger\" />;"
+        }
+      ],
+      "import": "import { Alert } from \"@your-org/design-system\";",
+      "description": "Alert component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"info\" | \"success\" | \"warning\" | \"danger\"",
+          "description": "Visual variant",
+          "defaultValue": "info"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.status.info.bg"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.status.info.border"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.info.icon"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.info.text"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.lg"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.status.positive.bg"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.status.positive.border"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.positive.icon"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.positive.text"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.status.warning.bg"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.status.warning.border"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.warning.icon"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.warning.text"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.status.danger.bg"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.status.danger.border"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.danger.icon"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.danger.text"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:405",
+        "updatedAt": "2026-03-22T04:53:01.49956+00:00"
+      }
+    },
+    "basalt-run-et-5-avatar": {
+      "id": "basalt-run-et-5-avatar",
+      "name": "Avatar",
+      "path": "figma:5:325",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-avatar--xs",
+          "name": "XS",
+          "snippet": "const XS = () => <Avatar variant=\"xs\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-avatar--sm",
+          "name": "SM",
+          "snippet": "const SM = () => <Avatar variant=\"sm\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-avatar--md",
+          "name": "MD",
+          "snippet": "const MD = () => <Avatar variant=\"md\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-avatar--lg",
+          "name": "LG",
+          "snippet": "const LG = () => <Avatar variant=\"lg\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-avatar--xl",
+          "name": "XL",
+          "snippet": "const XL = () => <Avatar variant=\"xl\" />;"
+        }
+      ],
+      "import": "import { Avatar } from \"@your-org/design-system\";",
+      "description": "Avatar component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"xs\" | \"sm\" | \"md\" | \"lg\" | \"xl\"",
+          "description": "Visual variant",
+          "defaultValue": "xs"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.action.primary.text"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:325",
+        "updatedAt": "2026-03-22T04:52:57.299795+00:00"
+      }
+    },
+    "basalt-run-et-5-badge": {
+      "id": "basalt-run-et-5-badge",
+      "name": "Badge",
+      "path": "figma:5:310",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-badge--default",
+          "name": "Default",
+          "snippet": "const Default = () => <Badge />;"
+        },
+        {
+          "id": "basalt-run-et-5-badge--success",
+          "name": "Success",
+          "snippet": "const Success = () => <Badge variant=\"success\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-badge--warning",
+          "name": "Warning",
+          "snippet": "const Warning = () => <Badge variant=\"warning\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-badge--danger",
+          "name": "Danger",
+          "snippet": "const Danger = () => <Badge variant=\"danger\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-badge--info",
+          "name": "Info",
+          "snippet": "const Info = () => <Badge variant=\"info\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-badge--brand",
+          "name": "Brand",
+          "snippet": "const Brand = () => <Badge variant=\"brand\" />;"
+        }
+      ],
+      "import": "import { Badge } from \"@your-org/design-system\";",
+      "description": "Badge component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"default\" | \"success\" | \"warning\" | \"danger\" | \"info\" | \"brand\"",
+          "description": "Visual variant",
+          "defaultValue": "default"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.full"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.status.positive.bg"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.status.positive.border"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.positive.text"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.status.warning.bg"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.status.warning.border"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.warning.text"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.status.danger.bg"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.status.danger.border"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.danger.text"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.status.info.bg"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.status.info.border"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.info.text"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.action.primary.text"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:310",
+        "updatedAt": "2026-03-22T04:52:55.875614+00:00"
+      }
+    },
+    "basalt-run-et-5-breadcrumb--default": {
+      "id": "basalt-run-et-5-breadcrumb--default",
+      "name": "Breadcrumb/Default",
+      "path": "figma:5:456",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-breadcrumb--default--breadcrumb/default",
+          "name": "Breadcrumb/Default",
+          "snippet": "const Breadcrumb/Default = () => <Breadcrumb/Default variant=\"breadcrumb/default\" />;"
+        }
+      ],
+      "import": "import { Breadcrumb/Default } from \"@your-org/design-system\";",
+      "description": "Breadcrumb/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:456",
+        "updatedAt": "2026-03-22T04:53:02.71057+00:00"
+      }
+    },
+    "basalt-run-et-5-button": {
+      "id": "basalt-run-et-5-button",
+      "name": "Button",
+      "path": "figma:5:233",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-button--primary",
+          "name": "Primary",
+          "snippet": "const Primary = () => <Button variant=\"primary\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--primary",
+          "name": "Primary",
+          "snippet": "const Primary = () => <Button variant=\"primary\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--primary",
+          "name": "Primary",
+          "snippet": "const Primary = () => <Button variant=\"primary\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--neutral",
+          "name": "Neutral",
+          "snippet": "const Neutral = () => <Button variant=\"neutral\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--neutral",
+          "name": "Neutral",
+          "snippet": "const Neutral = () => <Button variant=\"neutral\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--neutral",
+          "name": "Neutral",
+          "snippet": "const Neutral = () => <Button variant=\"neutral\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--ghost",
+          "name": "Ghost",
+          "snippet": "const Ghost = () => <Button variant=\"ghost\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--ghost",
+          "name": "Ghost",
+          "snippet": "const Ghost = () => <Button variant=\"ghost\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--ghost",
+          "name": "Ghost",
+          "snippet": "const Ghost = () => <Button variant=\"ghost\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--danger",
+          "name": "Danger",
+          "snippet": "const Danger = () => <Button variant=\"danger\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--danger",
+          "name": "Danger",
+          "snippet": "const Danger = () => <Button variant=\"danger\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--danger",
+          "name": "Danger",
+          "snippet": "const Danger = () => <Button variant=\"danger\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--primary",
+          "name": "Primary",
+          "snippet": "const Primary = () => <Button variant=\"primary\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--primary",
+          "name": "Primary",
+          "snippet": "const Primary = () => <Button variant=\"primary\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--primary",
+          "name": "Primary",
+          "snippet": "const Primary = () => <Button variant=\"primary\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--neutral",
+          "name": "Neutral",
+          "snippet": "const Neutral = () => <Button variant=\"neutral\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--neutral",
+          "name": "Neutral",
+          "snippet": "const Neutral = () => <Button variant=\"neutral\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--neutral",
+          "name": "Neutral",
+          "snippet": "const Neutral = () => <Button variant=\"neutral\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--ghost",
+          "name": "Ghost",
+          "snippet": "const Ghost = () => <Button variant=\"ghost\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--ghost",
+          "name": "Ghost",
+          "snippet": "const Ghost = () => <Button variant=\"ghost\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--ghost",
+          "name": "Ghost",
+          "snippet": "const Ghost = () => <Button variant=\"ghost\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--danger",
+          "name": "Danger",
+          "snippet": "const Danger = () => <Button variant=\"danger\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--danger",
+          "name": "Danger",
+          "snippet": "const Danger = () => <Button variant=\"danger\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--danger",
+          "name": "Danger",
+          "snippet": "const Danger = () => <Button variant=\"danger\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--primary",
+          "name": "Primary",
+          "snippet": "const Primary = () => <Button variant=\"primary\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--primary",
+          "name": "Primary",
+          "snippet": "const Primary = () => <Button variant=\"primary\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--primary",
+          "name": "Primary",
+          "snippet": "const Primary = () => <Button variant=\"primary\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--neutral",
+          "name": "Neutral",
+          "snippet": "const Neutral = () => <Button variant=\"neutral\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--neutral",
+          "name": "Neutral",
+          "snippet": "const Neutral = () => <Button variant=\"neutral\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--neutral",
+          "name": "Neutral",
+          "snippet": "const Neutral = () => <Button variant=\"neutral\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--ghost",
+          "name": "Ghost",
+          "snippet": "const Ghost = () => <Button variant=\"ghost\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--ghost",
+          "name": "Ghost",
+          "snippet": "const Ghost = () => <Button variant=\"ghost\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--ghost",
+          "name": "Ghost",
+          "snippet": "const Ghost = () => <Button variant=\"ghost\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--danger",
+          "name": "Danger",
+          "snippet": "const Danger = () => <Button variant=\"danger\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--danger",
+          "name": "Danger",
+          "snippet": "const Danger = () => <Button variant=\"danger\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-button--danger",
+          "name": "Danger",
+          "snippet": "const Danger = () => <Button variant=\"danger\" />;"
+        }
+      ],
+      "import": "import { Button } from \"@your-org/design-system\";",
+      "description": "Button component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"primary\" | \"primary\" | \"primary\" | \"neutral\" | \"neutral\" | \"neutral\" | \"ghost\" | \"ghost\" | \"ghost\" | \"danger\" | \"danger\" | \"danger\" | \"primary\" | \"primary\" | \"primary\" | \"neutral\" | \"neutral\" | \"neutral\" | \"ghost\" | \"ghost\" | \"ghost\" | \"danger\" | \"danger\" | \"danger\" | \"primary\" | \"primary\" | \"primary\" | \"neutral\" | \"neutral\" | \"neutral\" | \"ghost\" | \"ghost\" | \"ghost\" | \"danger\" | \"danger\" | \"danger\"",
+          "description": "Visual variant",
+          "defaultValue": "primary"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.action.primary.text"
+          },
+          {
+            "cssProperty": "gap",
+            "tokenPath": "spacing.layout.xs"
+          },
+          {
+            "cssProperty": "gap",
+            "tokenPath": "spacing.inline.sm"
+          },
+          {
+            "cssProperty": "gap",
+            "tokenPath": "spacing.component.sm"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.md"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bgHover"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bgDisabled"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.action.primary.textDisabled"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.neutral.bg"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.action.neutral.border"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.action.neutral.text"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.neutral.bgHover"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.neutral.bgDisabled"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.ghost.bg"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.action.ghost.text"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.ghost.bgHover"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.danger.bg"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.danger.text"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.danger.bgHover"
+          },
+          {
+            "cssProperty": "gap",
+            "tokenPath": "spacing.inline.md"
+          },
+          {
+            "cssProperty": "gap",
+            "tokenPath": "spacing.component.md"
+          },
+          {
+            "cssProperty": "gap",
+            "tokenPath": "spacing.inline.lg"
+          },
+          {
+            "cssProperty": "gap",
+            "tokenPath": "spacing.component.lg"
+          }
+        ],
+        "usage": "Use buttons to trigger actions, submit forms, or navigate to new pages. Primary buttons should represent the main action on a page, with only one primary per section. Neutral and Ghost variants are for secondary actions, while Danger is reserved for destructive operations like delete or remove.",
+        "never": "Never use a button for navigation alone—use a link instead. Never stack multiple Primary buttons in the same context as this creates competing hierarchy. Never disable a button without providing clear feedback about why it's disabled or how to enable it.",
+        "a11y": "",
+        "wcagCriteria": [
+          "1.4.3 Contrast (Minimum)",
+          "2.1.1 Keyboard",
+          "4.1.2 Name, Role, Value",
+          "2.5.8 Target Size (Minimum)"
+        ],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:233",
+        "updatedAt": "2026-03-22T17:30:33.954+00:00"
+      }
+    },
+    "basalt-run-et-5-card": {
+      "id": "basalt-run-et-5-card",
+      "name": "Card",
+      "path": "figma:5:500",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-card--default",
+          "name": "Default",
+          "snippet": "const Default = () => <Card />;"
+        },
+        {
+          "id": "basalt-run-et-5-card--hover",
+          "name": "Hover",
+          "snippet": "const Hover = () => <Card variant=\"hover\" />;"
+        }
+      ],
+      "import": "import { Card } from \"@your-org/design-system\";",
+      "description": "Card component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"default\" | \"hover\"",
+          "description": "Visual variant",
+          "defaultValue": "default"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.lg"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.elevated"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.strong"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:500",
+        "updatedAt": "2026-03-22T04:53:03.022787+00:00"
+      }
+    },
+    "basalt-run-et-5-code-snippet--default": {
+      "id": "basalt-run-et-5-code-snippet--default",
+      "name": "CodeSnippet/Default",
+      "path": "figma:5:733",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-code-snippet--default--codesnippet/default",
+          "name": "CodeSnippet/Default",
+          "snippet": "const CodeSnippet/Default = () => <CodeSnippet/Default variant=\"codesnippet/default\" />;"
+        }
+      ],
+      "import": "import { CodeSnippet/Default } from \"@your-org/design-system\";",
+      "description": "CodeSnippet/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "code.background"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "code.border"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "code.keyword"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "code.text"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "code.string"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.lg"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:733",
+        "updatedAt": "2026-03-22T04:53:03.89968+00:00"
+      }
+    },
+    "basalt-run-et-5-color-picker--default": {
+      "id": "basalt-run-et-5-color-picker--default",
+      "name": "ColorPicker/Default",
+      "path": "figma:5:743",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-color-picker--default--colorpicker/default",
+          "name": "ColorPicker/Default",
+          "snippet": "const ColorPicker/Default = () => <ColorPicker/Default variant=\"colorpicker/default\" />;"
+        }
+      ],
+      "import": "import { ColorPicker/Default } from \"@your-org/design-system\";",
+      "description": "ColorPicker/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.elevated"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.lg"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.sm"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:743",
+        "updatedAt": "2026-03-22T04:53:04.06825+00:00"
+      }
+    },
+    "basalt-run-et-5-combobox": {
+      "id": "basalt-run-et-5-combobox",
+      "name": "Combobox",
+      "path": "figma:5:703",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-combobox--closed",
+          "name": "Closed",
+          "snippet": "const Closed = () => <Combobox variant=\"closed\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-combobox--open",
+          "name": "Open",
+          "snippet": "const Open = () => <Combobox variant=\"open\" />;"
+        }
+      ],
+      "import": "import { Combobox } from \"@your-org/design-system\";",
+      "description": "Combobox component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"closed\" | \"open\"",
+          "description": "Visual variant",
+          "defaultValue": "closed"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.md"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.focus"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:703",
+        "updatedAt": "2026-03-22T04:53:00.748695+00:00"
+      }
+    },
+    "basalt-run-et-5-command-palette--default": {
+      "id": "basalt-run-et-5-command-palette--default",
+      "name": "CommandPalette/Default",
+      "path": "figma:5:568",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-command-palette--default--commandpalette/default",
+          "name": "CommandPalette/Default",
+          "snippet": "const CommandPalette/Default = () => <CommandPalette/Default variant=\"commandpalette/default\" />;"
+        }
+      ],
+      "import": "import { CommandPalette/Default } from \"@your-org/design-system\";",
+      "description": "CommandPalette/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.elevated"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:568",
+        "updatedAt": "2026-03-22T04:53:03.746594+00:00"
+      }
+    },
+    "basalt-run-et-5-component-preview--default": {
+      "id": "basalt-run-et-5-component-preview--default",
+      "name": "ComponentPreview/Default",
+      "path": "figma:5:803",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-component-preview--default--componentpreview/default",
+          "name": "ComponentPreview/Default",
+          "snippet": "const ComponentPreview/Default = () => <ComponentPreview/Default variant=\"componentpreview/default\" />;"
+        }
+      ],
+      "import": "import { ComponentPreview/Default } from \"@your-org/design-system\";",
+      "description": "ComponentPreview/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.sunken"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.action.primary.text"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.elevated"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.code"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.lg"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:803",
+        "updatedAt": "2026-03-22T04:53:06.291286+00:00"
+      }
+    },
+    "basalt-run-et-5-divider": {
+      "id": "basalt-run-et-5-divider",
+      "name": "Divider",
+      "path": "figma:5:345",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-divider--default",
+          "name": "Default",
+          "snippet": "const Default = () => <Divider />;"
+        },
+        {
+          "id": "basalt-run-et-5-divider--subtle",
+          "name": "Subtle",
+          "snippet": "const Subtle = () => <Divider variant=\"subtle\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-divider--strong",
+          "name": "Strong",
+          "snippet": "const Strong = () => <Divider variant=\"strong\" />;"
+        }
+      ],
+      "import": "import { Divider } from \"@your-org/design-system\";",
+      "description": "Divider component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"default\" | \"subtle\" | \"strong\"",
+          "description": "Visual variant",
+          "defaultValue": "default"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.subtle"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.strong"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:345",
+        "updatedAt": "2026-03-22T04:52:58.10507+00:00"
+      }
+    },
+    "basalt-run-et-5-dropdown-menu--default": {
+      "id": "basalt-run-et-5-dropdown-menu--default",
+      "name": "DropdownMenu/Default",
+      "path": "figma:5:393",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-dropdown-menu--default--dropdownmenu/default",
+          "name": "DropdownMenu/Default",
+          "snippet": "const DropdownMenu/Default = () => <DropdownMenu/Default variant=\"dropdownmenu/default\" />;"
+        }
+      ],
+      "import": "import { DropdownMenu/Default } from \"@your-org/design-system\";",
+      "description": "DropdownMenu/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.elevated"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.ghost.bgHover"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.danger.textSubtle"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.lg"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:393",
+        "updatedAt": "2026-03-22T04:53:00.429384+00:00"
+      }
+    },
+    "basalt-run-et-5-empty-state": {
+      "id": "basalt-run-et-5-empty-state",
+      "name": "EmptyState",
+      "path": "figma:5:753",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-empty-state--no-tokens",
+          "name": "No-tokens",
+          "snippet": "const No-tokens = () => <EmptyState variant=\"no-tokens\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-empty-state--no-components",
+          "name": "No-components",
+          "snippet": "const No-components = () => <EmptyState variant=\"no-components\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-empty-state--no-results",
+          "name": "No-results",
+          "snippet": "const No-results = () => <EmptyState variant=\"no-results\" />;"
+        }
+      ],
+      "import": "import { EmptyState } from \"@your-org/design-system\";",
+      "description": "EmptyState component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"no-tokens\" | \"no-components\" | \"no-results\"",
+          "description": "Visual variant",
+          "defaultValue": "no-tokens"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.lg"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:753",
+        "updatedAt": "2026-03-22T04:52:59.383365+00:00"
+      }
+    },
+    "basalt-run-et-5-file-upload": {
+      "id": "basalt-run-et-5-file-upload",
+      "name": "FileUpload",
+      "path": "figma:5:768",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-file-upload--default",
+          "name": "Default",
+          "snippet": "const Default = () => <FileUpload />;"
+        },
+        {
+          "id": "basalt-run-et-5-file-upload--dragging",
+          "name": "Dragging",
+          "snippet": "const Dragging = () => <FileUpload variant=\"dragging\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-file-upload--uploaded",
+          "name": "Uploaded",
+          "snippet": "const Uploaded = () => <FileUpload variant=\"uploaded\" />;"
+        }
+      ],
+      "import": "import { FileUpload } from \"@your-org/design-system\";",
+      "description": "FileUpload component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"default\" | \"dragging\" | \"uploaded\"",
+          "description": "Visual variant",
+          "defaultValue": "default"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.lg"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.accent"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.status.positive.bg"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.status.positive.border"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.positive.icon"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.positive.text"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:768",
+        "updatedAt": "2026-03-22T04:53:01.139772+00:00"
+      }
+    },
+    "basalt-run-et-5-form--default": {
+      "id": "basalt-run-et-5-form--default",
+      "name": "Form/Default",
+      "path": "figma:5:719",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-form--default--form/default",
+          "name": "Form/Default",
+          "snippet": "const Form/Default = () => <Form/Default variant=\"form/default\" />;"
+        }
+      ],
+      "import": "import { Form/Default } from \"@your-org/design-system\";",
+      "description": "Form/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.elevated"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.action.primary.text"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.lg"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.md"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:719",
+        "updatedAt": "2026-03-22T04:53:00.978743+00:00"
+      }
+    },
+    "basalt-run-et-5-git-hub-sync": {
+      "id": "basalt-run-et-5-git-hub-sync",
+      "name": "GitHubSync",
+      "path": "figma:5:662",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-git-hub-sync--synced",
+          "name": "Synced",
+          "snippet": "const Synced = () => <GitHubSync variant=\"synced\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-git-hub-sync--syncing",
+          "name": "Syncing",
+          "snippet": "const Syncing = () => <GitHubSync variant=\"syncing\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-git-hub-sync--error",
+          "name": "Error",
+          "snippet": "const Error = () => <GitHubSync variant=\"error\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-git-hub-sync--not-connected",
+          "name": "Not-connected",
+          "snippet": "const Not-connected = () => <GitHubSync variant=\"not-connected\" />;"
+        }
+      ],
+      "import": "import { GitHubSync } from \"@your-org/design-system\";",
+      "description": "GitHubSync component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"synced\" | \"syncing\" | \"error\" | \"not-connected\"",
+          "description": "Visual variant",
+          "defaultValue": "synced"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.code"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.positive.text"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.md"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.danger.text"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:662",
+        "updatedAt": "2026-03-22T04:53:05.923315+00:00"
+      }
+    },
+    "basalt-run-et-5-input": {
+      "id": "basalt-run-et-5-input",
+      "name": "Input",
+      "path": "figma:5:369",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-input--default",
+          "name": "Default",
+          "snippet": "const Default = () => <Input />;"
+        },
+        {
+          "id": "basalt-run-et-5-input--focus",
+          "name": "Focus",
+          "snippet": "const Focus = () => <Input variant=\"focus\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-input--error",
+          "name": "Error",
+          "snippet": "const Error = () => <Input variant=\"error\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-input--disabled",
+          "name": "Disabled",
+          "snippet": "const Disabled = () => <Input variant=\"disabled\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-input--default-inner",
+          "name": "Default-inner",
+          "snippet": "const Default-inner = () => <Input variant=\"default-inner\" />;"
+        }
+      ],
+      "import": "import { Input } from \"@your-org/design-system\";",
+      "description": "Input component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"default\" | \"focus\" | \"error\" | \"disabled\" | \"default-inner\"",
+          "description": "Visual variant",
+          "defaultValue": "default"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "gap",
+            "tokenPath": "spacing.inline.md"
+          },
+          {
+            "cssProperty": "gap",
+            "tokenPath": "spacing.component.md"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.md"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.focus"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.danger.border"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.sunken"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.subtle"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:369",
+        "updatedAt": "2026-03-22T04:52:59.694256+00:00"
+      }
+    },
+    "basalt-run-et-5-link": {
+      "id": "basalt-run-et-5-link",
+      "name": "Link",
+      "path": "figma:5:685",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-link--default",
+          "name": "Default",
+          "snippet": "const Default = () => <Link />;"
+        },
+        {
+          "id": "basalt-run-et-5-link--hover",
+          "name": "Hover",
+          "snippet": "const Hover = () => <Link variant=\"hover\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-link--visited",
+          "name": "Visited",
+          "snippet": "const Visited = () => <Link variant=\"visited\" />;"
+        }
+      ],
+      "import": "import { Link } from \"@your-org/design-system\";",
+      "description": "Link component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"default\" | \"hover\" | \"visited\"",
+          "description": "Visual variant",
+          "defaultValue": "default"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.link"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.linkHover"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:685",
+        "updatedAt": "2026-03-22T04:52:59.055136+00:00"
+      }
+    },
+    "basalt-run-et-5-m-c-p-endpoint-card--default": {
+      "id": "basalt-run-et-5-m-c-p-endpoint-card--default",
+      "name": "MCPEndpointCard/Default",
+      "path": "figma:5:635",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-m-c-p-endpoint-card--default--mcpendpointcard/default",
+          "name": "MCPEndpointCard/Default",
+          "snippet": "const MCPEndpointCard/Default = () => <MCPEndpointCard/Default variant=\"mcpendpointcard/default\" />;"
+        }
+      ],
+      "import": "import { MCPEndpointCard/Default } from \"@your-org/design-system\";",
+      "description": "MCPEndpointCard/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.status.positive.bg"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.status.positive.border"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.positive.text"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.sunken"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.code"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.lg"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.md"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:635",
+        "updatedAt": "2026-03-22T04:53:05.593302+00:00"
+      }
+    },
+    "basalt-run-et-5-modal--default": {
+      "id": "basalt-run-et-5-modal--default",
+      "name": "Modal/Default",
+      "path": "figma:5:509",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-modal--default--modal/default",
+          "name": "Modal/Default",
+          "snippet": "const Modal/Default = () => <Modal/Default variant=\"modal/default\" />;"
+        }
+      ],
+      "import": "import { Modal/Default } from \"@your-org/design-system\";",
+      "description": "Modal/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.elevated"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.subtle"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:509",
+        "updatedAt": "2026-03-22T04:53:03.304882+00:00"
+      }
+    },
+    "basalt-run-et-5-number-input--default": {
+      "id": "basalt-run-et-5-number-input--default",
+      "name": "NumberInput/Default",
+      "path": "figma:5:693",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-number-input--default--numberinput/default",
+          "name": "NumberInput/Default",
+          "snippet": "const NumberInput/Default = () => <NumberInput/Default variant=\"numberinput/default\" />;"
+        }
+      ],
+      "import": "import { NumberInput/Default } from \"@your-org/design-system\";",
+      "description": "NumberInput/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.md"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:693",
+        "updatedAt": "2026-03-22T04:53:00.571678+00:00"
+      }
+    },
+    "basalt-run-et-5-onboarding": {
+      "id": "basalt-run-et-5-onboarding",
+      "name": "Onboarding",
+      "path": "figma:5:821",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-onboarding--1",
+          "name": "1",
+          "snippet": "const 1 = () => <Onboarding variant=\"1\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-onboarding--2",
+          "name": "2",
+          "snippet": "const 2 = () => <Onboarding variant=\"2\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-onboarding--3",
+          "name": "3",
+          "snippet": "const 3 = () => <Onboarding variant=\"3\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-onboarding--4",
+          "name": "4",
+          "snippet": "const 4 = () => <Onboarding variant=\"4\" />;"
+        }
+      ],
+      "import": "import { Onboarding } from \"@your-org/design-system\";",
+      "description": "Onboarding component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"1\" | \"2\" | \"3\" | \"4\"",
+          "description": "Visual variant",
+          "defaultValue": "1"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.positive.text"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:821",
+        "updatedAt": "2026-03-22T04:53:06.450958+00:00"
+      }
+    },
+    "basalt-run-et-5-progress--linear--default": {
+      "id": "basalt-run-et-5-progress--linear--default",
+      "name": "Progress/Linear/Default",
+      "path": "figma:5:443",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-progress--linear--default--progress/linear/default",
+          "name": "Progress/Linear/Default",
+          "snippet": "const Progress/Linear/Default = () => <Progress/Linear/Default variant=\"progress/linear/default\" />;"
+        }
+      ],
+      "import": "import { Progress/Linear/Default } from \"@your-org/design-system\";",
+      "description": "Progress/Linear/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.sunken"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:443",
+        "updatedAt": "2026-03-22T04:53:02.396908+00:00"
+      }
+    },
+    "basalt-run-et-5-project-card--default": {
+      "id": "basalt-run-et-5-project-card--default",
+      "name": "ProjectCard/Default",
+      "path": "figma:5:647",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-project-card--default--projectcard/default",
+          "name": "ProjectCard/Default",
+          "snippet": "const ProjectCard/Default = () => <ProjectCard/Default variant=\"projectcard/default\" />;"
+        }
+      ],
+      "import": "import { ProjectCard/Default } from \"@your-org/design-system\";",
+      "description": "ProjectCard/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.sunken"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.code"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.action.primary.text"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.lg"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:647",
+        "updatedAt": "2026-03-22T04:53:05.754497+00:00"
+      }
+    },
+    "basalt-run-et-5-search": {
+      "id": "basalt-run-et-5-search",
+      "name": "Search",
+      "path": "figma:5:388",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-search--default",
+          "name": "Default",
+          "snippet": "const Default = () => <Search />;"
+        }
+      ],
+      "import": "import { Search } from \"@your-org/design-system\";",
+      "description": "Search component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.md"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:388",
+        "updatedAt": "2026-03-22T04:53:00.281225+00:00"
+      }
+    },
+    "basalt-run-et-5-sidebar--expanded": {
+      "id": "basalt-run-et-5-sidebar--expanded",
+      "name": "Sidebar/Expanded",
+      "path": "figma:5:481",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-sidebar--expanded--sidebar/expanded",
+          "name": "Sidebar/Expanded",
+          "snippet": "const Sidebar/Expanded = () => <Sidebar/Expanded variant=\"sidebar/expanded\" />;"
+        }
+      ],
+      "import": "import { Sidebar/Expanded } from \"@your-org/design-system\";",
+      "description": "Sidebar/Expanded component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.action.primary.text"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.md"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:481",
+        "updatedAt": "2026-03-22T04:53:02.877439+00:00"
+      }
+    },
+    "basalt-run-et-5-skeleton": {
+      "id": "basalt-run-et-5-skeleton",
+      "name": "Skeleton",
+      "path": "figma:5:360",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-skeleton--text-sm",
+          "name": "Text-SM",
+          "snippet": "const Text-SM = () => <Skeleton variant=\"text-sm\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-skeleton--text-md",
+          "name": "Text-MD",
+          "snippet": "const Text-MD = () => <Skeleton variant=\"text-md\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-skeleton--text-lg",
+          "name": "Text-LG",
+          "snippet": "const Text-LG = () => <Skeleton variant=\"text-lg\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-skeleton--avatar-md",
+          "name": "Avatar-MD",
+          "snippet": "const Avatar-MD = () => <Skeleton variant=\"avatar-md\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-skeleton--card",
+          "name": "Card",
+          "snippet": "const Card = () => <Skeleton variant=\"card\" />;"
+        }
+      ],
+      "import": "import { Skeleton } from \"@your-org/design-system\";",
+      "description": "Skeleton component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"text-sm\" | \"text-md\" | \"text-lg\" | \"avatar-md\" | \"card\"",
+          "description": "Visual variant",
+          "defaultValue": "text-sm"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "color",
+            "tokenPath": "skeleton.base"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:360",
+        "updatedAt": "2026-03-22T04:52:58.419037+00:00"
+      }
+    },
+    "basalt-run-et-5-table--default": {
+      "id": "basalt-run-et-5-table--default",
+      "name": "Table/Default",
+      "path": "figma:5:529",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-table--default--table/default",
+          "name": "Table/Default",
+          "snippet": "const Table/Default = () => <Table/Default variant=\"table/default\" />;"
+        }
+      ],
+      "import": "import { Table/Default } from \"@your-org/design-system\";",
+      "description": "Table/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.elevated"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.subtle"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.code"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:529",
+        "updatedAt": "2026-03-22T04:53:03.603928+00:00"
+      }
+    },
+    "basalt-run-et-5-tabs--bar": {
+      "id": "basalt-run-et-5-tabs--bar",
+      "name": "Tabs/Bar",
+      "path": "figma:5:447",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-tabs--bar--tabs/bar",
+          "name": "Tabs/Bar",
+          "snippet": "const Tabs/Bar = () => <Tabs/Bar variant=\"tabs/bar\" />;"
+        }
+      ],
+      "import": "import { Tabs/Bar } from \"@your-org/design-system\";",
+      "description": "Tabs/Bar component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:447",
+        "updatedAt": "2026-03-22T04:53:02.549259+00:00"
+      }
+    },
+    "basalt-run-et-5-tag": {
+      "id": "basalt-run-et-5-tag",
+      "name": "Tag",
+      "path": "figma:5:338",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-tag--default",
+          "name": "Default",
+          "snippet": "const Default = () => <Tag />;"
+        },
+        {
+          "id": "basalt-run-et-5-tag--selected",
+          "name": "Selected",
+          "snippet": "const Selected = () => <Tag variant=\"selected\" />;"
+        }
+      ],
+      "import": "import { Tag } from \"@your-org/design-system\";",
+      "description": "Tag component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"default\" | \"selected\"",
+          "description": "Visual variant",
+          "defaultValue": "default"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.full"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.action.primary.text"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:338",
+        "updatedAt": "2026-03-22T04:52:57.867648+00:00"
+      }
+    },
+    "basalt-run-et-5-textarea": {
+      "id": "basalt-run-et-5-textarea",
+      "name": "Textarea",
+      "path": "figma:5:384",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-textarea--default",
+          "name": "Default",
+          "snippet": "const Default = () => <Textarea />;"
+        }
+      ],
+      "import": "import { Textarea } from \"@your-org/design-system\";",
+      "description": "Textarea component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.md"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:384",
+        "updatedAt": "2026-03-22T04:53:00.124465+00:00"
+      }
+    },
+    "basalt-run-et-5-toast": {
+      "id": "basalt-run-et-5-toast",
+      "name": "Toast",
+      "path": "figma:5:428",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-toast--default",
+          "name": "Default",
+          "snippet": "const Default = () => <Toast />;"
+        },
+        {
+          "id": "basalt-run-et-5-toast--success",
+          "name": "Success",
+          "snippet": "const Success = () => <Toast variant=\"success\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-toast--error",
+          "name": "Error",
+          "snippet": "const Error = () => <Toast variant=\"error\" />;"
+        }
+      ],
+      "import": "import { Toast } from \"@your-org/design-system\";",
+      "description": "Toast component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"default\" | \"success\" | \"error\"",
+          "description": "Visual variant",
+          "defaultValue": "default"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.inverse"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.onInverse"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.md"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.positive.icon"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.status.danger.icon"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:428",
+        "updatedAt": "2026-03-22T04:53:01.868212+00:00"
+      }
+    },
+    "basalt-run-et-5-token-chip-color-action-primary-bg": {
+      "id": "basalt-run-et-5-token-chip-color-action-primary-bg",
+      "name": "TokenChip/color/action/primary/bg",
+      "path": "figma:5:595",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-token-chip-color-action-primary-bg--tokenchip/color/action/primary/bg",
+          "name": "TokenChip/color/action/primary/bg",
+          "snippet": "const TokenChip/color/action/primary/bg = () => <TokenChip/color/action/primary/bg variant=\"tokenchip/color/action/primary/bg\" />;"
+        }
+      ],
+      "import": "import { TokenChip/color/action/primary/bg } from \"@your-org/design-system\";",
+      "description": "TokenChip/color/action/primary/bg component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.sunken"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.code"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.sm"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:595",
+        "updatedAt": "2026-03-22T04:53:04.91225+00:00"
+      }
+    },
+    "basalt-run-et-5-token-chip-color-text-primary": {
+      "id": "basalt-run-et-5-token-chip-color-text-primary",
+      "name": "TokenChip/color/text/primary",
+      "path": "figma:5:588",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-token-chip-color-text-primary--tokenchip/color/text/primary",
+          "name": "TokenChip/color/text/primary",
+          "snippet": "const TokenChip/color/text/primary = () => <TokenChip/color/text/primary variant=\"tokenchip/color/text/primary\" />;"
+        }
+      ],
+      "import": "import { TokenChip/color/text/primary } from \"@your-org/design-system\";",
+      "description": "TokenChip/color/text/primary component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.sunken"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.code"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.sm"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:588",
+        "updatedAt": "2026-03-22T04:53:04.411595+00:00"
+      }
+    },
+    "basalt-run-et-5-token-chip-radius-md": {
+      "id": "basalt-run-et-5-token-chip-radius-md",
+      "name": "TokenChip/radius/md",
+      "path": "figma:5:593",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-token-chip-radius-md--tokenchip/radius/md",
+          "name": "TokenChip/radius/md",
+          "snippet": "const TokenChip/radius/md = () => <TokenChip/radius/md variant=\"tokenchip/radius/md\" />;"
+        }
+      ],
+      "import": "import { TokenChip/radius/md } from \"@your-org/design-system\";",
+      "description": "TokenChip/radius/md component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.sunken"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.code"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.sm"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:593",
+        "updatedAt": "2026-03-22T04:53:04.743148+00:00"
+      }
+    },
+    "basalt-run-et-5-token-chip-spacing-layout-md": {
+      "id": "basalt-run-et-5-token-chip-spacing-layout-md",
+      "name": "TokenChip/spacing/layout/md",
+      "path": "figma:5:591",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-token-chip-spacing-layout-md--tokenchip/spacing/layout/md",
+          "name": "TokenChip/spacing/layout/md",
+          "snippet": "const TokenChip/spacing/layout/md = () => <TokenChip/spacing/layout/md variant=\"tokenchip/spacing/layout/md\" />;"
+        }
+      ],
+      "import": "import { TokenChip/spacing/layout/md } from \"@your-org/design-system\";",
+      "description": "TokenChip/spacing/layout/md component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.sunken"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.code"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.sm"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:591",
+        "updatedAt": "2026-03-22T04:53:04.57267+00:00"
+      }
+    },
+    "basalt-run-et-5-token-editor-row": {
+      "id": "basalt-run-et-5-token-editor-row",
+      "name": "TokenEditorRow",
+      "path": "figma:5:618",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-token-editor-row--default",
+          "name": "Default",
+          "snippet": "const Default = () => <TokenEditorRow />;"
+        },
+        {
+          "id": "basalt-run-et-5-token-editor-row--focused",
+          "name": "Focused",
+          "snippet": "const Focused = () => <TokenEditorRow variant=\"focused\" />;"
+        },
+        {
+          "id": "basalt-run-et-5-token-editor-row--default",
+          "name": "Default",
+          "snippet": "const Default = () => <TokenEditorRow />;"
+        }
+      ],
+      "import": "import { TokenEditorRow } from \"@your-org/design-system\";",
+      "description": "TokenEditorRow component",
+      "props": {
+        "variant": {
+          "required": false,
+          "type": "\"default\" | \"focused\" | \"default\"",
+          "description": "Visual variant",
+          "defaultValue": "default"
+        }
+      },
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.subtle"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.code"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.elevated"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.focus"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.md"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:618",
+        "updatedAt": "2026-03-22T04:53:05.24879+00:00"
+      }
+    },
+    "basalt-run-et-5-token-group--default": {
+      "id": "basalt-run-et-5-token-group--default",
+      "name": "TokenGroup/Default",
+      "path": "figma:5:600",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-token-group--default--tokengroup/default",
+          "name": "TokenGroup/Default",
+          "snippet": "const TokenGroup/Default = () => <TokenGroup/Default variant=\"tokengroup/default\" />;"
+        }
+      ],
+      "import": "import { TokenGroup/Default } from \"@your-org/design-system\";",
+      "description": "TokenGroup/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "border-color",
+            "tokenPath": "color.border.default"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.sunken"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.code"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.secondary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.link"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.md"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:600",
+        "updatedAt": "2026-03-22T04:53:05.081256+00:00"
+      }
+    },
+    "basalt-run-et-5-tooltip--default": {
+      "id": "basalt-run-et-5-tooltip--default",
+      "name": "Tooltip/Default",
+      "path": "figma:5:438",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-tooltip--default--tooltip/default",
+          "name": "Tooltip/Default",
+          "snippet": "const Tooltip/Default = () => <Tooltip/Default variant=\"tooltip/default\" />;"
+        }
+      ],
+      "import": "import { Tooltip/Default } from \"@your-org/design-system\";",
+      "description": "Tooltip/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.inverse"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.onInverse"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.md"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:438",
+        "updatedAt": "2026-03-22T04:53:02.156111+00:00"
+      }
+    },
+    "basalt-run-et-5-tree-view--default": {
+      "id": "basalt-run-et-5-tree-view--default",
+      "name": "TreeView/Default",
+      "path": "figma:5:779",
+      "stories": [
+        {
+          "id": "basalt-run-et-5-tree-view--default--treeview/default",
+          "name": "TreeView/Default",
+          "snippet": "const TreeView/Default = () => <TreeView/Default variant=\"treeview/default\" />;"
+        }
+      ],
+      "import": "import { TreeView/Default } from \"@your-org/design-system\";",
+      "description": "TreeView/Default component",
+      "props": {},
+      "basalt": {
+        "projectId": "8002a89a-9fdc-4f1f-ac04-8aeed6e9d14f",
+        "projectSlug": "basalt-run-et-5",
+        "tokenMappings": [
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.background.surface"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.tertiary"
+          },
+          {
+            "cssProperty": "color",
+            "tokenPath": "color.text.primary"
+          },
+          {
+            "cssProperty": "background-color",
+            "tokenPath": "color.action.primary.bg"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.md"
+          },
+          {
+            "cssProperty": "border-radius",
+            "tokenPath": "radius.sm"
+          }
+        ],
+        "usage": "",
+        "never": "",
+        "a11y": "",
+        "wcagCriteria": [],
+        "ariaRole": null,
+        "minTouchTarget": null,
+        "figmaNodeId": "5:779",
+        "updatedAt": "2026-03-22T04:53:04.230176+00:00"
+      }
+    }
+  }
+}
