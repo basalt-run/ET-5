@@ -28,36 +28,36 @@
       ],
       "minTouchTarget": null,
       "buildConfig": {
+        "icons": {},
         "variants": {
           "Accordion/Default": {
             "states": {
               "default": {
+                "staticClasses": "",
                 "tokenBindings": [
                   {
                     "id": "auto-1-1774225127936",
-                    "cssProperty": "border-color",
                     "tokenPath": "color.border.default",
+                    "cssProperty": "border-color",
                     "tailwindPrefix": "border"
                   },
                   {
                     "id": "auto-2-1774225127936",
-                    "cssProperty": "color",
                     "tokenPath": "color.text.secondary",
+                    "cssProperty": "color",
                     "tailwindPrefix": "text"
                   },
                   {
                     "id": "auto-3-1774225127936",
-                    "cssProperty": "background-color",
                     "tokenPath": "color.text.tertiary",
+                    "cssProperty": "background-color",
                     "tailwindPrefix": "bg"
                   }
-                ],
-                "staticClasses": ""
+                ]
               }
             }
           }
-        },
-        "icons": {}
+        }
       },
       "props": [
         {
@@ -2866,7 +2866,12 @@
       ],
       "sizes": [],
       "ariaRole": null,
-      "wcagCriteria": [],
+      "wcagCriteria": [
+        "1.4.3 Contrast (Minimum)",
+        "2.1.1 Keyboard",
+        "4.1.2 Name, Role, Value",
+        "2.5.8 Target Size (Minimum)"
+      ],
       "minTouchTarget": null,
       "buildConfig": {
         "variants": {
@@ -2897,10 +2902,74 @@
           }
         }
       },
-      "props": [],
-      "usage": "",
-      "never": "",
-      "aria": {}
+      "props": [
+        {
+          "name": "placeholder",
+          "type": "string",
+          "values": [
+            "Search...",
+            "Search products...",
+            "Find documentation..."
+          ],
+          "default": "Search...",
+          "required": false,
+          "description": "Placeholder text displayed when input is empty"
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "default": "",
+          "required": false,
+          "description": "Controlled input value for the search query"
+        },
+        {
+          "name": "onChange",
+          "type": "function",
+          "required": false,
+          "description": "Callback fired when the search input value changes"
+        },
+        {
+          "name": "onSubmit",
+          "type": "function",
+          "required": false,
+          "description": "Callback fired when search is submitted via Enter key or submit button"
+        },
+        {
+          "name": "onClear",
+          "type": "function",
+          "required": false,
+          "description": "Callback fired when the clear button is clicked"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "default": "false",
+          "required": false,
+          "description": "Disables the search input and prevents user interaction"
+        },
+        {
+          "name": "loading",
+          "type": "boolean",
+          "default": "false",
+          "required": false,
+          "description": "Shows loading indicator while search results are being fetched"
+        },
+        {
+          "name": "showClearButton",
+          "type": "boolean",
+          "default": "true",
+          "required": false,
+          "description": "Controls visibility of the clear button when input has value"
+        }
+      ],
+      "usage": "Use the Search component to allow users to query and filter large datasets or navigate content. Place it prominently in navigation bars, headers, or at the top of content-heavy pages where users need to quickly locate specific information. Best suited for catalogs, documentation, data tables, or site-wide search functionality.",
+      "never": "Never use Search as a generic text input for non-search purposes like forms or data entry. Never remove the search affordance (icon or label) that signals its purpose to users. Never implement search without providing clear feedback about results or empty states.",
+      "compose": "Wrap Search in a form element to enable native submit behavior on Enter key. Pair with a results dropdown, overlay, or dedicated results page to display search outcomes. Consider combining with filters or category selectors for advanced search scenarios.",
+      "aria": {
+        "role": "searchbox",
+        "keyboard": "Type to enter search query. Press Enter to submit search. Press Escape to clear input and close results. Tab to navigate through suggested results if present.",
+        "screenReader": "Announces 'Search' or custom label, current input value, and number of results when available. Loading state announced as 'searching' or 'loading results'."
+      }
     },
     {
       "name": "Sidebar/Expanded",
