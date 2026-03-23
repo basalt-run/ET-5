@@ -2065,7 +2065,13 @@
       ],
       "sizes": [],
       "ariaRole": null,
-      "wcagCriteria": [],
+      "wcagCriteria": [
+        "1.4.3 Contrast (Minimum)",
+        "2.1.1 Keyboard",
+        "4.1.2 Name, Role, Value",
+        "1.3.1 Info and Relationships",
+        "2.5.8 Target Size (Minimum)"
+      ],
       "minTouchTarget": null,
       "buildConfig": {
         "variants": {
@@ -2228,10 +2234,99 @@
           }
         }
       },
-      "props": [],
-      "usage": "",
-      "never": "",
-      "aria": {}
+      "props": [
+        {
+          "name": "variant",
+          "type": "string",
+          "values": [
+            "default",
+            "focus",
+            "error",
+            "disabled",
+            "default-inner"
+          ],
+          "default": "default",
+          "required": false,
+          "description": "Visual variant that communicates the input's current state"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "default": "false",
+          "required": false,
+          "description": "Disables the input and prevents user interaction"
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "default": "",
+          "required": false,
+          "description": "Controlled value of the input field"
+        },
+        {
+          "name": "placeholder",
+          "type": "string",
+          "default": "",
+          "required": false,
+          "description": "Placeholder text displayed when input is empty"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "values": [
+            "text",
+            "email",
+            "password",
+            "tel",
+            "url",
+            "number",
+            "search"
+          ],
+          "default": "text",
+          "required": false,
+          "description": "HTML input type that determines input behavior and validation"
+        },
+        {
+          "name": "onChange",
+          "type": "function",
+          "required": false,
+          "description": "Callback fired when the input value changes"
+        },
+        {
+          "name": "onFocus",
+          "type": "function",
+          "required": false,
+          "description": "Callback fired when the input receives focus"
+        },
+        {
+          "name": "onBlur",
+          "type": "function",
+          "required": false,
+          "description": "Callback fired when the input loses focus"
+        },
+        {
+          "name": "error",
+          "type": "boolean",
+          "default": "false",
+          "required": false,
+          "description": "When true, applies error styling and indicates validation failure"
+        },
+        {
+          "name": "required",
+          "type": "boolean",
+          "default": "false",
+          "required": false,
+          "description": "Marks the input as required for form submission"
+        }
+      ],
+      "usage": "Use Input for single-line text entry in forms where users need to provide short textual information like names, emails, or search queries. Inputs should always have a clear label and optionally helper text to guide users on expected format or requirements. Use the appropriate variant to communicate state (focus, error, disabled) to users.",
+      "never": "Never use Input for multi-line text entry — use Textarea instead. Never omit labels or rely solely on placeholder text for field identification, as placeholders disappear on input and create accessibility barriers. Never use disabled state for read-only data that users need to copy — use read-only styling or plain text instead.",
+      "compose": "Wrap Input with a label element or use a Field wrapper component that handles label, helper text, and error message layout. Pair with validation feedback messages positioned below the input and associate them using aria-describedby.",
+      "aria": {
+        "role": "textbox",
+        "keyboard": "Standard text input interactions: Type to enter text, Tab to navigate between fields, Enter to submit parent form. Arrow keys move cursor within text.",
+        "screenReader": "Screen readers announce the label, current value, required state, and any error or helper text associated via aria-describedby. Error state is announced when aria-invalid is true."
+      }
     },
     {
       "name": "Link",
