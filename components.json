@@ -244,122 +244,201 @@
         }
       ],
       "ariaRole": null,
-      "wcagCriteria": [],
+      "wcagCriteria": [
+        "1.4.3 Contrast (Minimum)",
+        "2.5.8 Target Size (Minimum)",
+        "4.1.2 Name, Role, Value",
+        "1.3.1 Info and Relationships"
+      ],
       "minTouchTarget": null,
       "buildConfig": {
+        "icons": {},
         "variants": {
           "LG": {
             "states": {
               "default": {
+                "staticClasses": "",
                 "tokenBindings": [
                   {
                     "id": "auto-1-1774224866225",
-                    "cssProperty": "background-color",
                     "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color",
                     "tailwindPrefix": "bg"
                   },
                   {
                     "id": "auto-2-1774224866225",
-                    "cssProperty": "color",
                     "tokenPath": "color.action.primary.text",
+                    "cssProperty": "color",
                     "tailwindPrefix": "text"
                   }
-                ],
-                "staticClasses": ""
+                ]
               }
             }
           },
           "MD": {
             "states": {
               "default": {
+                "staticClasses": "",
                 "tokenBindings": [
                   {
                     "id": "auto-3-1774224866225",
-                    "cssProperty": "background-color",
                     "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color",
                     "tailwindPrefix": "bg"
                   },
                   {
                     "id": "auto-4-1774224866225",
-                    "cssProperty": "color",
                     "tokenPath": "color.action.primary.text",
+                    "cssProperty": "color",
                     "tailwindPrefix": "text"
                   }
-                ],
-                "staticClasses": ""
+                ]
               }
             }
           },
           "SM": {
             "states": {
               "default": {
+                "staticClasses": "",
                 "tokenBindings": [
                   {
                     "id": "auto-5-1774224866225",
-                    "cssProperty": "background-color",
                     "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color",
                     "tailwindPrefix": "bg"
                   },
                   {
                     "id": "auto-6-1774224866225",
-                    "cssProperty": "color",
                     "tokenPath": "color.action.primary.text",
+                    "cssProperty": "color",
                     "tailwindPrefix": "text"
                   }
-                ],
-                "staticClasses": ""
+                ]
               }
             }
           },
           "XL": {
             "states": {
               "default": {
+                "staticClasses": "",
                 "tokenBindings": [
                   {
                     "id": "auto-7-1774224866225",
-                    "cssProperty": "background-color",
                     "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color",
                     "tailwindPrefix": "bg"
                   },
                   {
                     "id": "auto-8-1774224866225",
-                    "cssProperty": "color",
                     "tokenPath": "color.action.primary.text",
+                    "cssProperty": "color",
                     "tailwindPrefix": "text"
                   }
-                ],
-                "staticClasses": ""
+                ]
               }
             }
           },
           "XS": {
             "states": {
               "default": {
+                "staticClasses": "",
                 "tokenBindings": [
                   {
                     "id": "auto-9-1774224866225",
-                    "cssProperty": "background-color",
                     "tokenPath": "color.action.primary.bg",
+                    "cssProperty": "background-color",
                     "tailwindPrefix": "bg"
                   },
                   {
                     "id": "auto-10-1774224866225",
-                    "cssProperty": "color",
                     "tokenPath": "color.action.primary.text",
+                    "cssProperty": "color",
                     "tailwindPrefix": "text"
                   }
-                ],
-                "staticClasses": ""
+                ]
               }
             }
           }
-        },
-        "icons": {}
+        }
       },
-      "props": [],
-      "usage": "",
-      "never": "",
-      "aria": {}
+      "props": [
+        {
+          "name": "variant",
+          "type": "string",
+          "values": [
+            "XS",
+            "SM",
+            "MD",
+            "LG",
+            "XL"
+          ],
+          "default": "MD",
+          "required": false,
+          "description": "Size variant of the avatar"
+        },
+        {
+          "name": "size",
+          "type": "string",
+          "values": [
+            "XS",
+            "SM",
+            "MD",
+            "LG",
+            "XL"
+          ],
+          "default": "MD",
+          "required": false,
+          "description": "Explicit size of the avatar"
+        },
+        {
+          "name": "src",
+          "type": "string",
+          "default": "",
+          "required": false,
+          "description": "Image source URL for the avatar"
+        },
+        {
+          "name": "alt",
+          "type": "string",
+          "default": "",
+          "required": true,
+          "description": "Alternative text describing the person or entity"
+        },
+        {
+          "name": "initials",
+          "type": "string",
+          "default": "",
+          "required": false,
+          "description": "Fallback initials when no image is provided"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "default": "false",
+          "required": false,
+          "description": "Disables interactive functionality when Avatar is clickable"
+        },
+        {
+          "name": "onClick",
+          "type": "function",
+          "required": false,
+          "description": "Click handler for interactive avatars"
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": false,
+          "description": "Custom content rendered inside the avatar"
+        }
+      ],
+      "usage": "Use Avatar to represent a user or entity with an image, initials, or icon. Choose a size that matches the visual hierarchy and context—XS for compact lists, MD for standard user profiles, XL for profile headers. Avatars should always have accessible labels for screen readers.",
+      "never": "Never use Avatar for decorative images unrelated to user identity. Never omit alternative text or accessible labeling. Never use sizes smaller than the minimum touch target (44x44px) when the Avatar is interactive.",
+      "compose": "Wrap Avatar in a button or link when it triggers navigation or actions. Pair with text labels for user names in lists or headers to provide context beyond the visual representation.",
+      "aria": {
+        "role": "img",
+        "keyboard": "When interactive, responds to Enter and Space keys to activate. Focus indicator must be visible.",
+        "screenReader": "Announces the alt text or aria-label describing the user or entity. Interactive avatars announce as buttons with the person's name."
+      }
     },
     {
       "name": "Badge",
