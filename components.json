@@ -251,89 +251,110 @@
           "LG": {
             "states": {
               "default": {
-                "staticClasses": "",
                 "tokenBindings": [
                   {
+                    "id": "auto-1-1774224866225",
+                    "cssProperty": "background-color",
                     "tokenPath": "color.action.primary.bg",
-                    "cssProperty": "background-color"
+                    "tailwindPrefix": "bg"
                   },
                   {
+                    "id": "auto-2-1774224866225",
+                    "cssProperty": "color",
                     "tokenPath": "color.action.primary.text",
-                    "cssProperty": "color"
+                    "tailwindPrefix": "text"
                   }
-                ]
+                ],
+                "staticClasses": ""
               }
             }
           },
           "MD": {
             "states": {
               "default": {
-                "staticClasses": "",
                 "tokenBindings": [
                   {
+                    "id": "auto-3-1774224866225",
+                    "cssProperty": "background-color",
                     "tokenPath": "color.action.primary.bg",
-                    "cssProperty": "background-color"
+                    "tailwindPrefix": "bg"
                   },
                   {
+                    "id": "auto-4-1774224866225",
+                    "cssProperty": "color",
                     "tokenPath": "color.action.primary.text",
-                    "cssProperty": "color"
+                    "tailwindPrefix": "text"
                   }
-                ]
+                ],
+                "staticClasses": ""
               }
             }
           },
           "SM": {
             "states": {
               "default": {
-                "staticClasses": "",
                 "tokenBindings": [
                   {
+                    "id": "auto-5-1774224866225",
+                    "cssProperty": "background-color",
                     "tokenPath": "color.action.primary.bg",
-                    "cssProperty": "background-color"
+                    "tailwindPrefix": "bg"
                   },
                   {
+                    "id": "auto-6-1774224866225",
+                    "cssProperty": "color",
                     "tokenPath": "color.action.primary.text",
-                    "cssProperty": "color"
+                    "tailwindPrefix": "text"
                   }
-                ]
+                ],
+                "staticClasses": ""
               }
             }
           },
           "XL": {
             "states": {
               "default": {
-                "staticClasses": "",
                 "tokenBindings": [
                   {
+                    "id": "auto-7-1774224866225",
+                    "cssProperty": "background-color",
                     "tokenPath": "color.action.primary.bg",
-                    "cssProperty": "background-color"
+                    "tailwindPrefix": "bg"
                   },
                   {
+                    "id": "auto-8-1774224866225",
+                    "cssProperty": "color",
                     "tokenPath": "color.action.primary.text",
-                    "cssProperty": "color"
+                    "tailwindPrefix": "text"
                   }
-                ]
+                ],
+                "staticClasses": ""
               }
             }
           },
           "XS": {
             "states": {
               "default": {
-                "staticClasses": "",
                 "tokenBindings": [
                   {
+                    "id": "auto-9-1774224866225",
+                    "cssProperty": "background-color",
                     "tokenPath": "color.action.primary.bg",
-                    "cssProperty": "background-color"
+                    "tailwindPrefix": "bg"
                   },
                   {
+                    "id": "auto-10-1774224866225",
+                    "cssProperty": "color",
                     "tokenPath": "color.action.primary.text",
-                    "cssProperty": "color"
+                    "tailwindPrefix": "text"
                   }
-                ]
+                ],
+                "staticClasses": ""
               }
             }
           }
-        }
+        },
+        "icons": {}
       },
       "props": [],
       "usage": "",
