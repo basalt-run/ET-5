@@ -19,7 +19,13 @@
       ],
       "sizes": [],
       "ariaRole": null,
-      "wcagCriteria": [],
+      "wcagCriteria": [
+        "1.4.3 Contrast (Minimum)",
+        "2.1.1 Keyboard",
+        "4.1.2 Name, Role, Value",
+        "1.3.1 Info and Relationships",
+        "2.5.8 Target Size (Minimum)"
+      ],
       "minTouchTarget": null,
       "buildConfig": {
         "variants": {
@@ -46,10 +52,55 @@
           }
         }
       },
-      "props": [],
-      "usage": "",
-      "never": "",
-      "aria": {}
+      "props": [
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "required": true,
+          "description": "The content displayed within the accordion panel"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": true,
+          "description": "The header text displayed in the accordion trigger button"
+        },
+        {
+          "name": "expanded",
+          "type": "boolean",
+          "default": "false",
+          "required": false,
+          "description": "Controls whether the accordion panel is expanded or collapsed"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "default": "false",
+          "required": false,
+          "description": "Disables the accordion, preventing expansion or collapse"
+        },
+        {
+          "name": "onChange",
+          "type": "function",
+          "required": false,
+          "description": "Callback fired when the accordion expanded state changes"
+        },
+        {
+          "name": "defaultExpanded",
+          "type": "boolean",
+          "default": "false",
+          "required": false,
+          "description": "The initial expanded state when uncontrolled"
+        }
+      ],
+      "usage": "Use accordions to organize related content into collapsible sections, allowing users to show and hide information on demand. Ideal for FAQs, settings panels, or any content where users only need to view a subset at a time. Accordions reduce cognitive load by progressively disclosing information.",
+      "never": "Never nest accordions within accordions as this creates confusing hierarchies. Never use accordions for critical information that users must see immediately. Never disable individual accordion items without clear visual indication and explanation.",
+      "compose": "Wrap multiple accordion items within an AccordionGroup or parent container to manage expanded state behavior (single vs multiple expansion). Pair with icons to indicate expand/collapse state and provide visual affordances.",
+      "aria": {
+        "role": "button for trigger with aria-expanded, region for panel content",
+        "keyboard": "Enter or Space to toggle expansion, Tab to move between accordion headers, focus management to panel content when expanded",
+        "screenReader": "Announces accordion header text, expanded or collapsed state, and number of items if in a group. Panel content is read when expanded."
+      }
     },
     {
       "name": "Alert",
@@ -844,195 +895,195 @@
       ],
       "minTouchTarget": null,
       "buildConfig": {
+        "icons": {},
         "variants": {
           "Ghost": {
             "states": {
               "default": {
+                "staticClasses": "",
                 "tokenBindings": [
                   {
                     "id": "auto-1-1774195239530",
-                    "cssProperty": "gap",
                     "tokenPath": "spacing.layout.xs",
+                    "cssProperty": "gap",
                     "tailwindPrefix": "gap"
                   },
                   {
                     "id": "auto-2-1774195239530",
-                    "cssProperty": "padding-x",
                     "tokenPath": "spacing.inline.lg",
+                    "cssProperty": "padding-x",
                     "tailwindPrefix": "px"
                   },
                   {
                     "id": "auto-3-1774195239530",
-                    "cssProperty": "padding-y",
                     "tokenPath": "spacing.component.lg",
+                    "cssProperty": "padding-y",
                     "tailwindPrefix": "py"
                   },
                   {
                     "id": "auto-4-1774195239530",
-                    "cssProperty": "border-radius",
                     "tokenPath": "radius.md",
+                    "cssProperty": "border-radius",
                     "tailwindPrefix": "rounded"
                   },
                   {
                     "id": "auto-5-1774195239530",
-                    "cssProperty": "background-color",
                     "tokenPath": "color.action.ghost.bgHover",
+                    "cssProperty": "background-color",
                     "tailwindPrefix": "bg"
                   },
                   {
                     "id": "auto-6-1774195239530",
-                    "cssProperty": "color",
                     "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color",
                     "tailwindPrefix": "text"
                   }
-                ],
-                "staticClasses": ""
+                ]
               }
             }
           },
           "Danger": {
             "states": {
               "default": {
+                "staticClasses": "",
                 "tokenBindings": [
                   {
                     "id": "auto-7-1774195239530",
-                    "cssProperty": "gap",
                     "tokenPath": "spacing.layout.xs",
+                    "cssProperty": "gap",
                     "tailwindPrefix": "gap"
                   },
                   {
                     "id": "auto-8-1774195239530",
-                    "cssProperty": "padding-x",
                     "tokenPath": "spacing.inline.lg",
+                    "cssProperty": "padding-x",
                     "tailwindPrefix": "px"
                   },
                   {
                     "id": "auto-9-1774195239530",
-                    "cssProperty": "padding-y",
                     "tokenPath": "spacing.component.lg",
+                    "cssProperty": "padding-y",
                     "tailwindPrefix": "py"
                   },
                   {
                     "id": "auto-10-1774195239530",
-                    "cssProperty": "border-radius",
                     "tokenPath": "radius.md",
+                    "cssProperty": "border-radius",
                     "tailwindPrefix": "rounded"
                   },
                   {
                     "id": "auto-11-1774195239530",
-                    "cssProperty": "background-color",
                     "tokenPath": "color.danger.bgHover",
+                    "cssProperty": "background-color",
                     "tailwindPrefix": "bg"
                   },
                   {
                     "id": "auto-12-1774195239530",
-                    "cssProperty": "color",
                     "tokenPath": "color.text.tertiary",
+                    "cssProperty": "color",
                     "tailwindPrefix": "text"
                   }
-                ],
-                "staticClasses": ""
+                ]
               }
             }
           },
           "Neutral": {
             "states": {
               "default": {
+                "staticClasses": "",
                 "tokenBindings": [
                   {
                     "id": "auto-13-1774195239530",
-                    "cssProperty": "gap",
                     "tokenPath": "spacing.layout.xs",
+                    "cssProperty": "gap",
                     "tailwindPrefix": "gap"
                   },
                   {
                     "id": "auto-14-1774195239530",
-                    "cssProperty": "padding-x",
                     "tokenPath": "spacing.inline.lg",
+                    "cssProperty": "padding-x",
                     "tailwindPrefix": "px"
                   },
                   {
                     "id": "auto-15-1774195239530",
-                    "cssProperty": "padding-y",
                     "tokenPath": "spacing.component.lg",
+                    "cssProperty": "padding-y",
                     "tailwindPrefix": "py"
                   },
                   {
                     "id": "auto-16-1774195239530",
-                    "cssProperty": "border-radius",
                     "tokenPath": "radius.md",
+                    "cssProperty": "border-radius",
                     "tailwindPrefix": "rounded"
                   },
                   {
                     "id": "auto-17-1774195239530",
-                    "cssProperty": "background-color",
                     "tokenPath": "color.action.neutral.bgDisabled",
+                    "cssProperty": "background-color",
                     "tailwindPrefix": "bg"
                   },
                   {
                     "id": "auto-18-1774195239530",
-                    "cssProperty": "border-color",
                     "tokenPath": "color.action.neutral.border",
+                    "cssProperty": "border-color",
                     "tailwindPrefix": "border"
                   },
                   {
                     "id": "auto-19-1774195239530",
-                    "cssProperty": "color",
                     "tokenPath": "color.action.neutral.text",
+                    "cssProperty": "color",
                     "tailwindPrefix": "text"
                   }
-                ],
-                "staticClasses": ""
+                ]
               }
             }
           },
           "Primary": {
             "states": {
               "default": {
+                "staticClasses": "",
                 "tokenBindings": [
                   {
                     "id": "auto-20-1774195239530",
-                    "cssProperty": "gap",
                     "tokenPath": "spacing.layout.xs",
+                    "cssProperty": "gap",
                     "tailwindPrefix": "gap"
                   },
                   {
                     "id": "auto-21-1774195239530",
-                    "cssProperty": "padding-x",
                     "tokenPath": "spacing.inline.lg",
+                    "cssProperty": "padding-x",
                     "tailwindPrefix": "px"
                   },
                   {
                     "id": "auto-22-1774195239530",
-                    "cssProperty": "padding-y",
                     "tokenPath": "spacing.component.lg",
+                    "cssProperty": "padding-y",
                     "tailwindPrefix": "py"
                   },
                   {
                     "id": "auto-23-1774195239530",
-                    "cssProperty": "border-radius",
                     "tokenPath": "radius.md",
+                    "cssProperty": "border-radius",
                     "tailwindPrefix": "rounded"
                   },
                   {
                     "id": "auto-24-1774195239530",
-                    "cssProperty": "background-color",
                     "tokenPath": "color.action.primary.bgDisabled",
+                    "cssProperty": "background-color",
                     "tailwindPrefix": "bg"
                   },
                   {
                     "id": "auto-25-1774195239530",
-                    "cssProperty": "color",
                     "tokenPath": "color.action.primary.textDisabled",
+                    "cssProperty": "color",
                     "tailwindPrefix": "text"
                   }
-                ],
-                "staticClasses": ""
+                ]
               }
             }
           }
-        },
-        "icons": {}
+        }
       },
       "props": [
         {
