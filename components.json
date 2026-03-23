@@ -844,195 +844,195 @@
       ],
       "minTouchTarget": null,
       "buildConfig": {
-        "icons": {},
         "variants": {
           "Ghost": {
             "states": {
               "default": {
-                "staticClasses": "",
                 "tokenBindings": [
                   {
                     "id": "auto-1-1774195239530",
-                    "tokenPath": "spacing.layout.xs",
                     "cssProperty": "gap",
+                    "tokenPath": "spacing.layout.xs",
                     "tailwindPrefix": "gap"
                   },
                   {
                     "id": "auto-2-1774195239530",
-                    "tokenPath": "spacing.inline.lg",
                     "cssProperty": "padding-x",
+                    "tokenPath": "spacing.inline.lg",
                     "tailwindPrefix": "px"
                   },
                   {
                     "id": "auto-3-1774195239530",
-                    "tokenPath": "spacing.component.lg",
                     "cssProperty": "padding-y",
+                    "tokenPath": "spacing.component.lg",
                     "tailwindPrefix": "py"
                   },
                   {
                     "id": "auto-4-1774195239530",
-                    "tokenPath": "radius.md",
                     "cssProperty": "border-radius",
+                    "tokenPath": "radius.md",
                     "tailwindPrefix": "rounded"
                   },
                   {
                     "id": "auto-5-1774195239530",
-                    "tokenPath": "color.action.ghost.bgHover",
                     "cssProperty": "background-color",
+                    "tokenPath": "color.action.ghost.bgHover",
                     "tailwindPrefix": "bg"
                   },
                   {
                     "id": "auto-6-1774195239530",
-                    "tokenPath": "color.text.tertiary",
                     "cssProperty": "color",
+                    "tokenPath": "color.text.tertiary",
                     "tailwindPrefix": "text"
                   }
-                ]
+                ],
+                "staticClasses": ""
               }
             }
           },
           "Danger": {
             "states": {
               "default": {
-                "staticClasses": "",
                 "tokenBindings": [
                   {
                     "id": "auto-7-1774195239530",
-                    "tokenPath": "spacing.layout.xs",
                     "cssProperty": "gap",
+                    "tokenPath": "spacing.layout.xs",
                     "tailwindPrefix": "gap"
                   },
                   {
                     "id": "auto-8-1774195239530",
-                    "tokenPath": "spacing.inline.lg",
                     "cssProperty": "padding-x",
+                    "tokenPath": "spacing.inline.lg",
                     "tailwindPrefix": "px"
                   },
                   {
                     "id": "auto-9-1774195239530",
-                    "tokenPath": "spacing.component.lg",
                     "cssProperty": "padding-y",
+                    "tokenPath": "spacing.component.lg",
                     "tailwindPrefix": "py"
                   },
                   {
                     "id": "auto-10-1774195239530",
-                    "tokenPath": "radius.md",
                     "cssProperty": "border-radius",
+                    "tokenPath": "radius.md",
                     "tailwindPrefix": "rounded"
                   },
                   {
                     "id": "auto-11-1774195239530",
-                    "tokenPath": "color.danger.bgHover",
                     "cssProperty": "background-color",
+                    "tokenPath": "color.danger.bgHover",
                     "tailwindPrefix": "bg"
                   },
                   {
                     "id": "auto-12-1774195239530",
-                    "tokenPath": "color.text.tertiary",
                     "cssProperty": "color",
+                    "tokenPath": "color.text.tertiary",
                     "tailwindPrefix": "text"
                   }
-                ]
+                ],
+                "staticClasses": ""
               }
             }
           },
           "Neutral": {
             "states": {
               "default": {
-                "staticClasses": "",
                 "tokenBindings": [
                   {
                     "id": "auto-13-1774195239530",
-                    "tokenPath": "spacing.layout.xs",
                     "cssProperty": "gap",
+                    "tokenPath": "spacing.layout.xs",
                     "tailwindPrefix": "gap"
                   },
                   {
                     "id": "auto-14-1774195239530",
-                    "tokenPath": "spacing.inline.lg",
                     "cssProperty": "padding-x",
+                    "tokenPath": "spacing.inline.lg",
                     "tailwindPrefix": "px"
                   },
                   {
                     "id": "auto-15-1774195239530",
-                    "tokenPath": "spacing.component.lg",
                     "cssProperty": "padding-y",
+                    "tokenPath": "spacing.component.lg",
                     "tailwindPrefix": "py"
                   },
                   {
                     "id": "auto-16-1774195239530",
-                    "tokenPath": "radius.md",
                     "cssProperty": "border-radius",
+                    "tokenPath": "radius.md",
                     "tailwindPrefix": "rounded"
                   },
                   {
                     "id": "auto-17-1774195239530",
-                    "tokenPath": "color.action.neutral.bgDisabled",
                     "cssProperty": "background-color",
+                    "tokenPath": "color.action.neutral.bgDisabled",
                     "tailwindPrefix": "bg"
                   },
                   {
                     "id": "auto-18-1774195239530",
-                    "tokenPath": "color.action.neutral.border",
                     "cssProperty": "border-color",
+                    "tokenPath": "color.action.neutral.border",
                     "tailwindPrefix": "border"
                   },
                   {
                     "id": "auto-19-1774195239530",
-                    "tokenPath": "color.action.neutral.text",
                     "cssProperty": "color",
+                    "tokenPath": "color.action.neutral.text",
                     "tailwindPrefix": "text"
                   }
-                ]
+                ],
+                "staticClasses": ""
               }
             }
           },
           "Primary": {
             "states": {
               "default": {
-                "staticClasses": "",
                 "tokenBindings": [
                   {
                     "id": "auto-20-1774195239530",
-                    "tokenPath": "spacing.layout.xs",
                     "cssProperty": "gap",
+                    "tokenPath": "spacing.layout.xs",
                     "tailwindPrefix": "gap"
                   },
                   {
                     "id": "auto-21-1774195239530",
-                    "tokenPath": "spacing.inline.lg",
                     "cssProperty": "padding-x",
+                    "tokenPath": "spacing.inline.lg",
                     "tailwindPrefix": "px"
                   },
                   {
                     "id": "auto-22-1774195239530",
-                    "tokenPath": "spacing.component.lg",
                     "cssProperty": "padding-y",
+                    "tokenPath": "spacing.component.lg",
                     "tailwindPrefix": "py"
                   },
                   {
                     "id": "auto-23-1774195239530",
-                    "tokenPath": "radius.md",
                     "cssProperty": "border-radius",
+                    "tokenPath": "radius.md",
                     "tailwindPrefix": "rounded"
                   },
                   {
                     "id": "auto-24-1774195239530",
-                    "tokenPath": "color.action.primary.bgDisabled",
                     "cssProperty": "background-color",
+                    "tokenPath": "color.action.primary.bgDisabled",
                     "tailwindPrefix": "bg"
                   },
                   {
                     "id": "auto-25-1774195239530",
-                    "tokenPath": "color.action.primary.textDisabled",
                     "cssProperty": "color",
+                    "tokenPath": "color.action.primary.textDisabled",
                     "tailwindPrefix": "text"
                   }
-                ]
+                ],
+                "staticClasses": ""
               }
             }
           }
-        }
+        },
+        "icons": {}
       },
       "props": [
         {
