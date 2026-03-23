@@ -32,25 +32,32 @@
           "Accordion/Default": {
             "states": {
               "default": {
-                "staticClasses": "",
                 "tokenBindings": [
                   {
+                    "id": "auto-1-1774225127936",
+                    "cssProperty": "border-color",
                     "tokenPath": "color.border.default",
-                    "cssProperty": "border-color"
+                    "tailwindPrefix": "border"
                   },
                   {
+                    "id": "auto-2-1774225127936",
+                    "cssProperty": "color",
                     "tokenPath": "color.text.secondary",
-                    "cssProperty": "color"
+                    "tailwindPrefix": "text"
                   },
                   {
+                    "id": "auto-3-1774225127936",
+                    "cssProperty": "background-color",
                     "tokenPath": "color.text.tertiary",
-                    "cssProperty": "background-color"
+                    "tailwindPrefix": "bg"
                   }
-                ]
+                ],
+                "staticClasses": ""
               }
             }
           }
-        }
+        },
+        "icons": {}
       },
       "props": [
         {
