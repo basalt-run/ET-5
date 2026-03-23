@@ -544,7 +544,11 @@
       ],
       "sizes": [],
       "ariaRole": null,
-      "wcagCriteria": [],
+      "wcagCriteria": [
+        "1.4.3 Contrast (Minimum)",
+        "1.3.1 Info and Relationships",
+        "4.1.2 Name, Role, Value"
+      ],
       "minTouchTarget": null,
       "buildConfig": {
         "variants": {
@@ -696,10 +700,38 @@
           }
         }
       },
-      "props": [],
-      "usage": "",
-      "never": "",
-      "aria": {}
+      "props": [
+        {
+          "name": "variant",
+          "type": "string",
+          "values": [
+            "default",
+            "success",
+            "warning",
+            "danger",
+            "info",
+            "brand"
+          ],
+          "default": "default",
+          "required": false,
+          "description": "Visual style variant that conveys semantic meaning through color"
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "default": "undefined",
+          "required": true,
+          "description": "Text or content displayed inside the badge"
+        }
+      ],
+      "usage": "Use badges to display short, descriptive metadata such as status labels, counts, or categories. Badges should communicate non-interactive information at a glance and be placed near the content they describe. Choose variant colors that align with their semantic meaning (success for positive states, danger for errors, warning for caution).",
+      "never": "Never use badges for interactive elements like buttons or links—use Button or Link components instead. Never use badges for lengthy text content that exceeds a few words, as they are designed for concise labels. Never rely solely on color to convey meaning; always include descriptive text for accessibility.",
+      "compose": "Badges are typically placed inline with text, next to headings, or overlaid on avatars and icons. Wrap badges in interactive parent components when status indicators need to trigger actions, but keep the badge itself non-interactive.",
+      "aria": {
+        "role": "status or img with role='presentation' if purely decorative",
+        "keyboard": "Not interactive; no keyboard navigation required",
+        "screenReader": "Screen readers announce the badge text content. Use aria-label to provide additional context when the visual variant conveys meaning not present in the text."
+      }
     },
     {
       "name": "Breadcrumb/Default",
